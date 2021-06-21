@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    /* font-family: 'Anton', sans-serif; */
     background: rgb(69, 69, 181);
     box-sizing: border-box;
     height: auto;
@@ -53,9 +55,9 @@ main {
 }
 
 .rubrique {
-    display: inline-flex;
-    flex-direction: row;
-    background: rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    padding: 2vh;
     width: 95%;
     height: 40%;
     margin-top: 10%;
@@ -65,12 +67,31 @@ main {
     text-align: center;
 }
 
+.data {
+    width: 65%;
+    margin: auto;
+}
+
+.data-image {
+    background: #9C9CD0;
+    padding: 10px;
+    text-align: center;
+}
+
+.data-text {
+    color: #F0D270;
+    font-weight: bold;
+    flex-grow: 1.5;
+    padding: 12px;
+}
+
 .image {
     padding: 10px;
 }
 
 .texte {
     flex-grow: 1.5;
+    background: #9C9CD0;
     padding: 12px;
 }
 
@@ -86,5 +107,19 @@ main {
     .main-content-flex {
         height: 0;
         
+    }
+    .rubrique {
+        display: inline-flex;
+        flex-direction: row;
+        width: 95%;
+        height: 40%;
+        margin-top: 10%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .data {
+        width: 20%;
     }
 }
