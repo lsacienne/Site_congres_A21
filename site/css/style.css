@@ -30,6 +30,8 @@ main {
 
 /* Classes CSS */
 
+/* Contenu du header */
+
 .main-image {
     width: 50%;
     height: 50%;
@@ -54,6 +56,8 @@ main {
     text-align: center;
 }
 
+/* Contenu de la page */
+
 .rubrique {
     display: flex;
     flex-direction: column;
@@ -66,6 +70,8 @@ main {
     align-items: center;
     text-align: center;
 }
+
+/* Trois datas (ou plus) données en début de page */
 
 .data {
     width: 65%;
@@ -85,8 +91,10 @@ main {
     color: #F0D270;
 }
 
+/* Contenu d'une rubrique dite "classique" */ 
+
 .image {
-    padding: 10px;
+    padding: 0px;
     background: #716cc5;
 }
 
@@ -97,9 +105,46 @@ main {
     padding: 7px;
 }
 
-/* Medias querries */
+/* Menu flottant */
+
+menu {
+    /* position: -webkit-sticky; */
+    position: fixed;
+    top: 10px;
+    right: 0px;
+}
+
+menu ul {
+    padding: 2vw;
+    list-style-type: none;
+    background-color: black;
+    color: blanchedalmond;
+}
+
+menu>ul>li{
+    width: 100%;
+    height: unset;
+    margin: auto;
+    align-items: center;
+    padding: 10px;
+}
+
+menu>ul>li:hover {
+    background-color: blanchedalmond;
+    color: black;
+}
+
+menu a {
+    color: inherit;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Medias querries : Utilisées pour le contenu sur un écran de pc */
 
 @media (min-width: 750px) {
+
+    /* Contenu du header */
     .main-content {
         display: flex;
         height: 100vh;
@@ -110,6 +155,7 @@ main {
         height: 0;
         
     }
+    /* Contenu de la page */
     .rubrique {
         display: inline-flex;
         flex-direction: row;
@@ -122,10 +168,52 @@ main {
         align-items: center;
         text-align: center;
     }
+    /* Trois datas (ou plus) données en début de page */
+
     .data {
         width: 20%;
     }
+    /* Contenu d'une rubrique dite "classique" */ 
     .texte {
         height: 100%;
     }
+
+    /* Menu flottant */
+    menu {
+        top: 0px;
+        width: 100%;     
+    }
+
+    menu ul {
+        padding: 10px;
+        text-align: right;
+        width: unset;
+        height: 90%vh;
+        background-color: black;
+        margin-top: 0;
+
+        
+    }
+
+    menu a {
+        color: blanchedalmond;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    
+    menu>ul>li{
+        display: inline-flex;
+        width: unset;
+        height: 100%;
+        margin: auto;
+        align-items: center;
+    }
+
+    menu>ul>li:hover {
+        background-color: blanchedalmond;
+        color: black;
+    }
+
+    
 }
