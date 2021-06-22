@@ -57,7 +57,7 @@ main {
 .rubrique {
     display: flex;
     flex-direction: column;
-    padding: 2vh;
+    padding: 1vw;
     width: 95%;
     height: 40%;
     margin-top: 10%;
@@ -79,20 +79,22 @@ main {
 }
 
 .data-text {
-    color: #F0D270;
     font-weight: bold;
     flex-grow: 1.5;
     padding: 12px;
+    color: #F0D270;
 }
 
 .image {
     padding: 10px;
+    background: #716cc5;
 }
 
 .texte {
     flex-grow: 1.5;
+    margin: 12px;
     background: #9C9CD0;
-    padding: 12px;
+    padding: 7px;
 }
 
 /* Medias querries */
@@ -111,6 +113,7 @@ main {
     .rubrique {
         display: inline-flex;
         flex-direction: row;
+        padding: 2vh;
         width: 95%;
         height: 40%;
         margin-top: 10%;
@@ -121,5 +124,8 @@ main {
     }
     .data {
         width: 20%;
+    }
+    .texte {
+        height: 100%;
     }
 }
