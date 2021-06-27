@@ -182,7 +182,8 @@ menu a {
 
     /* Menu flottant */
     menu {
-        top: 0px;
+        top:0px;
+        margin:0px;
         width: 100%;
     }
 
