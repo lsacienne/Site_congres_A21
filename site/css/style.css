@@ -22,7 +22,6 @@ body{
 .main-image img {
     display: block;
     max-width: 100%;
-    height: auto;
 }
 
 .image img {
@@ -49,8 +48,8 @@ main {
 /* Contenu du header */
 
 .main-image {
-    width: 50%;
-    height: 50%;
+    width: 20%;
+    height: 20%;
 }
 
 .main-content {
@@ -142,7 +141,7 @@ menu {
 menu ul {
     padding: 2vw;
     list-style-type: none;
-    background-color: black;
+    background-color: darkblue;
     color: blanchedalmond;
 }
 
@@ -175,6 +174,7 @@ menu a {
         height: 100vh;
         background: rgb(255,255,255);
         background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 60%, rgba(68,68,180,1) 100%);
+        margin:80px auto auto auto;
     }
     .main-content-flex {
         height: 0;
@@ -215,7 +215,7 @@ menu a {
         text-align: right;
         width: unset;
         height: 90%vh;
-        background-color: black;
+        background-color: darkblue;
         margin-top: 0;
 
 
