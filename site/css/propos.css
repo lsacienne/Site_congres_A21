@@ -1,9 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://db.onlinewebfonts.com/c/273d109a90780d8fe7bbe69817a67397?family=betterfly');
+
+:root{
+  --text-color: 'Anton', sans-serif;
+  --ff-main: 'BetterFly', sans-serif;
+  --ff-title: 'Fjalla One', sans-serif;
+  --menu-color: blanchedalmond;
+}
+
+html{
+  box-sizing: border-box;
+  color: var(--text-color);
+}
 
 body{
-    font-family: 'Fjalla One', sans-serif;
-    /* font-family: 'Anton', sans-serif; */
+    font-family: var(--ff-title);
     background: rgb(255, 255, 255);
     box-sizing: border-box;
     margin: 0px;
@@ -71,15 +83,15 @@ img {
 menu {
     /* position: -webkit-sticky; */
     position: fixed;
-    top: 200px;
+    top: 120px;
     right: 0px;
 }
 
 menu ul {
     padding: 2vw;
     list-style-type: none;
-    background-color: darkblue;
-    color: blanchedalmond;
+    background-color: rgb(15,57,194);
+    color: var(--menu-color);
 }
 
 menu>ul>li{
@@ -91,7 +103,7 @@ menu>ul>li{
 }
 
 menu>ul>li:hover {
-    background-color: blanchedalmond;
+    background-color: var(--menu-color);
     color: black;
 }
 
@@ -113,6 +125,7 @@ menu a {
 
   }
 
+  /* Menu flottant */
   menu {
       top:0px;
       margin:0px;
@@ -121,17 +134,17 @@ menu a {
 
   menu ul {
       padding: 10px;
-      text-align: right;
+      text-align: center;
       width: unset;
       height: 90%vh;
-      background-color: darkblue;
+      background-color: rgb(27,52,134);
       margin-top: 0;
 
 
   }
 
   menu a {
-      color: blanchedalmond;
+      color: var(--menu-color);
       text-decoration: none;
       color: inherit;
   }
@@ -146,11 +159,9 @@ menu a {
   }
 
   menu>ul>li:hover {
-      background-color: blanchedalmond;
+      background-color: var(--menu-color);
       color: black;
   }
-
-}
 
 
 @media (max-width: 750px) {

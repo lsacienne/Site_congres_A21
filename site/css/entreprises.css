@@ -3,7 +3,7 @@
 @import url('https://db.onlinewebfonts.com/c/273d109a90780d8fe7bbe69817a67397?family=betterfly');
 
 :root{
-  --text-color: ;
+  --text-color: 'Anton', sans-serif;
   --ff-main: 'BetterFly', sans-serif;
   --ff-title: 'Fjalla One', sans-serif;
   --menu-color: blanchedalmond;
@@ -14,10 +14,10 @@
 html{
   box-sizing: border-box;
   color: var(--text-color);
-
 }
 
 body{
+    font-family: var(--ff-title);
     margin:0px;
     padding: 0px;
     width: 100%;
@@ -52,7 +52,7 @@ p{
 }
 
 header{
-  padding: 1.5em 0 1em 0;
+  /*padding: 1.5em 0 1em 0;*/
 }
 
 section,footer{
@@ -81,25 +81,30 @@ footer hr {
 
 .section-title{
   text-align: center;
-  padding-bottom: 1.5em;
+  /*padding-bottom: 1.5em;*/
 }
 
 .main-title{
   text-align: center;
-  margin: auto;
   font-family: var(--ff-main);
   font-size: 3rem;
+  margin: 0;
+  padding: 15vh 0;
+  font-size: 4rem;
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  color: white;
 }
 
-.main-image{
+/*.main-image{
   height: 50%;
   width: 50%;
   margin: auto;
   padding: 5vh 0;
-}
+}*/
 
 .intro{
-  margin-right: 1em;
+  margin: 2em auto 2em auto;
   text-align: center;
   justify-content: center;
 }
@@ -121,13 +126,17 @@ footer hr {
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: multiply;
-  margin: 0;
-  padding: auto auto 5em auto;
+  color: white;
+  text-align: center;
 }
 
 .event-block{
   display: inline-block;
-  margin: auto 10rem auto 10rem;
+  margin: auto;
+}
+
+.event-block + .event-block{
+  padding-left: 1em;
 }
 
 .event{
@@ -140,6 +149,7 @@ footer hr {
   text-align: center;
   background-image: url(../images/calender.jpg);
   background-size: cover;
+  color: black;
 }
 
 
@@ -153,12 +163,11 @@ footer hr {
 }
 
 .frise-image{
-  margin: auto;
-
+  margin: 5rem auto 5rem auto;
 }
 
 .plaquette{
-  padding-top: 4em;
+  margin-bottom: 5rem;
 }
 
 .download{
@@ -175,8 +184,8 @@ footer hr {
   color: white;
 }
 
-.faq{
-
+.question_answer{
+  padding-top: 2em;
 }
 
 .question_answer{
@@ -201,7 +210,7 @@ menu {
 menu ul {
     padding: 2vw;
     list-style-type: none;
-    background-color: darkblue;
+    background-color: rgb(15,57,194);;
     color: var(--menu-color);
 }
 
@@ -234,8 +243,12 @@ menu a {
   }
 
   .main-title{
-    margin: 5rem auto auto auto;
+    margin: 4.9rem auto auto auto;
+    padding: 20vh 0;
     font-size: 4rem;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    color: white;
   }
 
   .intro-title{
@@ -255,7 +268,13 @@ menu a {
 
   .event-block{
     display: inline-block;
-    margin: auto 10rem auto 10rem;
+    margin: 1rem 10rem auto 10rem;
+  }
+
+
+
+  .event-block + .event-block{
+    padding-left: 0;
   }
 
   .event{
@@ -271,9 +290,7 @@ menu a {
   }
 
   .frise-image{
-
-    margin: auto;
-  /*  padding: 5vh 0;*/
+    margin: 5rem auto 5rem auto;
   }
 
   h2{
@@ -289,10 +306,10 @@ menu a {
 
   menu ul {
       padding: 10px;
-      text-align: right;
+      text-align: center;
       width: unset;
       height: 90%vh;
-      background-color: darkblue;
+      background-color: rgb(27,52,134);
       margin-top: 0;
 
 
