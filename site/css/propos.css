@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://db.onlinewebfonts.com/c/273d109a90780d8fe7bbe69817a67397?family=betterfly');
+
+:root{
+  --text-color: 'Anton', sans-serif;
+  --ff-main: 'BetterFly', sans-serif;
+  --ff-title: 'Fjalla One', sans-serif;
+  --menu-color: blanchedalmond;
+}
+
+html{
+  box-sizing: border-box;
+  color: var(--text-color);
+}
+
+body{
+    font-family: var(--ff-title);
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+main {
+   /*border:solid blue;*/
+    max-width: 3840px;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    /*border-radius: 75px;*/
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.ligne{
+  padding: 0;
+  /*border:solid red;*/
+  width: 95%;
+  height: 40%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/*.logo{
+  display:inline-block;
+  border-radius: 75px;
+  border:solid black;
+  background-color: black;
+  width: 80px;
+  height : 80px;
+  margin: 10px 50px 10px 50px;
+
+}*/
+
+.logo{
+  display:inline-block;
+  width: 150px;
+  height : auto;
+  margin: 10px 30px 10px 30px;
+}
+
+#seekube{
+  margin:auto auto 50px auto;
+}
+
+.main-content{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 100px auto 50px auto;
+}
+
+/* Menu flottant */
+menu {
+    /* position: -webkit-sticky; */
+    position: fixed;
+    top: 120px;
+    right: 0px;
+}
+
+menu ul {
+    padding: 2vw;
+    list-style-type: none;
+    background-color: rgb(15,57,194);
+    color: var(--menu-color);
+}
+
+menu>ul>li{
+    width: 100%;
+    height: unset;
+    margin: auto;
+    align-items: center;
+    padding: 10px;
+}
+
+menu>ul>li:hover {
+    background-color: var(--menu-color);
+    color: black;
+}
+
+menu a {
+    color: inherit;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+
+/* Medias querries : Utilisées pour le contenu sur un écran de pc */
+@media (min-width: 850px) {
+  .logo{
+    display:inline-block;
+    width: 190px;
+    height : auto;
+    margin: 10px 30px 10px 30px;
+
+  }
+
+  /* Menu flottant */
+  menu {
+      top:0px;
+      margin:0px;
+      width: 100%;
+  }
+
+  menu ul {
+      padding: 10px;
+      text-align: center;
+      width: unset;
+      height: 90%vh;
+      background-color: rgb(27,52,134);
+      margin-top: 0;
+
+
+  }
+
+  menu a {
+      color: var(--menu-color);
+      text-decoration: none;
+      color: inherit;
+  }
+
+
+  menu>ul>li{
+      display: inline-flex;
+      width: unset;
+      height: 100%;
+      margin: auto;
+      align-items: center;
+  }
+
+  menu>ul>li:hover {
+      background-color: var(--menu-color);
+      color: black;
+  }
+
+
+@media (max-width: 750px) {
+  .logo{
+    display:inline-block;
+    width: 90px;
+    height : auto;
+    margin: 10px 30px 10px 30px;
+
+  }
+
+}

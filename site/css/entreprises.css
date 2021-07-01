@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://db.onlinewebfonts.com/c/273d109a90780d8fe7bbe69817a67397?family=betterfly');
+
+:root{
+  --text-color: 'Anton', sans-serif;
+  --ff-main: 'BetterFly', sans-serif;
+  --ff-title: 'Fjalla One', sans-serif;
+  --menu-color: blanchedalmond;
+  --highlight-color: orange;
+  --calender-color: #764981;
+}
+
+html{
+  box-sizing: border-box;
+  color: var(--text-color);
+}
+
+body{
+    font-family: var(--ff-title);
+    margin:0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+h1, h2, h3, p{
+  margin: 0;
+}
+
+h2,h3{
+  font-family: var(--ff-title);
+}
+
+h2{
+  font-size: 1.75rem;
+}
+
+h3{
+  font-size: 2rem;
+}
+
+p{
+  margin-bottom: 0.85em;
+  font-size: 1.5rem;
+}
+
+header{
+  /*padding: 1.5em 0 1em 0;*/
+}
+
+section,footer{
+  padding: 1em;
+}
+
+footer{
+  margin: auto;
+  color:rgb(56, 53, 53);
+  text-align: center;
+  background-color: orange;
+}
+
+footer h3 {
+    font-size: 200%;
+}
+
+footer hr {
+    width: 50%;
+    color:rgb(184, 179, 179);
+}
+
+.footer-text {
+    font-weight: bold;
+}
+
+.section-title{
+  text-align: center;
+  /*padding-bottom: 1.5em;*/
+}
+
+.main-title{
+  text-align: center;
+  font-family: var(--ff-main);
+  font-size: 3rem;
+  margin: 0;
+  padding: 15vh 0;
+  font-size: 4rem;
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  background-color: #333;
+  color: white;
+}
+
+/*.main-image{
+  height: 50%;
+  width: 50%;
+  margin: auto;
+  padding: 5vh 0;
+}*/
+
+.intro{
+  margin: 2em auto 2em auto;
+  text-align: center;
+  justify-content: center;
+}
+
+.intro-title{
+  box-shadow: 10px 5px 5px black;
+  border : 10px inset grey;
+  font-size: 1.75rem;
+}
+
+.highlight{
+  color: var(--highlight-color);
+}
+
+
+.calendrier{
+  background-color: var(--calender-color);
+  background-image: url(../images/logo.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  color: white;
+  text-align: center;
+}
+
+.event-block{
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.event-block + .event-block{
+  padding-left: 1em;
+}
+
+.event{
+  border-radius: 90px;
+  border:solid black;
+  width: 165px;
+  height : 165px;
+  margin: auto;
+  line-height: 150px;
+  text-align: center;
+  background-image: url(../images/calender.jpg);
+  background-size: cover;
+  color: black;
+}
+
+
+.hour-text{
+  margin: 0;
+  text-align: center;
+}
+
+.frise{
+  text-align: center;
+}
+
+.frise-image{
+  margin: 5rem auto 5rem auto;
+}
+
+.plaquette{
+  margin-bottom: 5rem;
+}
+
+.download{
+  width: 200px;
+  height: auto;
+  background-color: var(--calender-color);
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 0 0 1em rgba(142,68,173,1);
+  border-radius: 1em;
+}
+
+.download a{
+  text-decoration: none;
+  color: white;
+}
+
+.question_answer{
+  padding-top: 2em;
+}
+
+.question_answer{
+
+}
+
+
+.question{
+  border-left: 5px solid grey;
+  padding-left: 1em;
+}
+
+
+/* Menu flottant */
+menu {
+    /* position: -webkit-sticky; */
+    position: fixed;
+    top: 120px;
+    right: 0px;
+}
+
+menu ul {
+    padding: 2vw;
+    list-style-type: none;
+    background-color: rgb(15,57,194);;
+    color: var(--menu-color);
+}
+
+menu>ul>li{
+    width: 100%;
+    height: unset;
+    margin: auto;
+    align-items: center;
+    padding: 10px;
+}
+
+menu>ul>li:hover {
+    background-color: var(--menu-color);
+    color: black;
+}
+
+menu a {
+    color: inherit;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+/* Medias querries : Utilisées pour le contenu sur un écran de pc */
+
+@media (min-width: 750px) {
+  .main-image{
+    height: 25%;
+    width: 25%;
+  }
+
+  .main-title{
+    background-color: #333;
+    margin: 4.9rem auto auto auto;
+    padding: 20vh 0;
+    font-size: 4rem;
+    background-image: url(https://source.unsplash.com/random);
+    background-blend-mode: multiply;
+    background-size: cover;
+    color: white;
+
+  }
+
+  .intro-title{
+    margin: auto 20rem auto 20rem;
+    font-size: 2.5rem;
+  }
+
+  .calendrier{
+    background-color: var(--calender-color);
+    background-image: url(../images/logo.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    margin: 0;
+    padding: auto auto 2rem auto;
+  }
+
+  .event-block{
+    display: inline-block;
+    margin: 1rem 10rem auto 10rem;
+  }
+
+
+
+  .event-block + .event-block{
+    padding-left: 0;
+  }
+
+  .event{
+    border-radius: 90px;
+    border:solid black;
+    width: 165px;
+    height : 165px;
+    margin: auto;
+    line-height: 150px;
+    text-align: center;
+    background-image: url(../images/calender.jpg);
+    background-size: cover;
+  }
+
+  .frise-image{
+    margin: 5rem auto 5rem auto;
+  }
+
+  h2{
+    font-size: 2.5rem;
+  }
+
+  /* Menu flottant */
+  menu {
+      top:0px;
+      margin:0px;
+      width: 100%;
+  }
+
+  menu ul {
+      padding: 10px;
+      text-align: center;
+      width: unset;
+      height: 90%vh;
+      background-color: rgb(27,52,134);
+      margin-top: 0;
+
+
+  }
+
+  menu a {
+      color: var(--menu-color);
+      text-decoration: none;
+      color: inherit;
+  }
+
+
+  menu>ul>li{
+      display: inline-flex;
+      width: unset;
+      height: 100%;
+      margin: auto;
+      align-items: center;
+  }
+
+  menu>ul>li:hover {
+      background-color: var(--menu-color);
+      color: black;
+  }
+
+
+
+}
