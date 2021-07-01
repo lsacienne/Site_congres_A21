@@ -142,15 +142,31 @@ main {
 }
 
 /* Menu flottant */
+
+.titre-menu {
+    color: var(--text-color);
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
 menu {
     /* position: -webkit-sticky; */
     position: fixed;
-    top: 120px;
-    right: 0px;
+    top: 2.5vh;
+    right: 1vh;
 }
 
-menu ul {
-    padding: 2vw;
+menu-container menu {
+    display: none;
+}
+
+menu-container:hover menu {
+    display: block;
+}
+
+menu ul { 
+    padding: 1vw;
     list-style-type: none;
     background-color: rgb(15,57,194);;
     color: var(--menu-color);
@@ -174,6 +190,25 @@ menu a {
     text-decoration: none;
     padding: 10px;
 }
+
+/* Icone menu */
+
+.carre {
+    height: 5vh;
+    width: 5vh;
+    background-color: rgb(15,57,194);
+    padding: 5%;
+    display: block;
+    border-radius: 0.3em;
+}
+
+.carre .rect {
+    margin: 10%;
+    background-color: #F0D270;
+    height: 20%;
+    border-radius: 0.1em;
+}
+
 
 /* Medias querries : Utilisées pour le contenu sur un écran de pc */
 
@@ -217,9 +252,17 @@ menu a {
     .texte {
         height: 100%;
     }
+    menu-container menu {
+        display: unset;
+    }
 
     /* Menu flottant */
+    .titre-menu {
+        display: none;
+    }
+
     menu {
+        display: unset;
         top:0px;
         margin:0px;
         width: 100%;
