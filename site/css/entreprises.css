@@ -93,6 +93,7 @@ footer hr {
   font-size: 4rem;
   background-image: url(../images/background.jpg);
   background-size: cover;
+  background-color: #333;
   color: white;
 }
 
@@ -132,7 +133,7 @@ footer hr {
 
 .event-block{
   display: inline-block;
-  margin: auto;
+  margin-top: 1rem;
 }
 
 .event-block + .event-block{
@@ -173,10 +174,12 @@ footer hr {
 .download{
   width: 200px;
   height: auto;
-  background-color: blue;
+  background-color: var(--calender-color);
   margin: auto;
   text-align: center;
   padding: 10px;
+  box-shadow: 0 0 1em rgba(142,68,173,1);
+  border-radius: 1em;
 }
 
 .download a{
@@ -243,12 +246,15 @@ menu a {
   }
 
   .main-title{
+    background-color: #333;
     margin: 4.9rem auto auto auto;
     padding: 20vh 0;
     font-size: 4rem;
-    background-image: url(../images/background.jpg);
+    background-image: url(https://source.unsplash.com/random);
+    background-blend-mode: multiply;
     background-size: cover;
     color: white;
+
   }
 
   .intro-title{
