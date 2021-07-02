@@ -61,7 +61,7 @@ main {
 /* Contenu du header */
 
 .main-image {
-    width: 20%;
+    width: 50%;
     height: 20%;
 }
 
@@ -159,6 +159,11 @@ main {
     .main-content-flex {
         height: 0;
 
+    }
+
+    .main-image {
+        width: 60%;
+        height: 20%;
     }
     /* Contenu de la page */
     .rubrique {
