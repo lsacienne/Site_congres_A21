@@ -79,39 +79,7 @@ img {
   margin: 100px auto 50px auto;
 }
 
-/* Menu flottant */
-menu {
-    /* position: -webkit-sticky; */
-    position: fixed;
-    top: 120px;
-    right: 0px;
-}
 
-menu ul {
-    padding: 2vw;
-    list-style-type: none;
-    background-color: rgb(15,57,194);
-    color: var(--menu-color);
-}
-
-menu>ul>li{
-    width: 100%;
-    height: unset;
-    margin: auto;
-    align-items: center;
-    padding: 10px;
-}
-
-menu>ul>li:hover {
-    background-color: var(--menu-color);
-    color: black;
-}
-
-menu a {
-    color: inherit;
-    text-decoration: none;
-    padding: 10px;
-}
 
 
 
@@ -124,45 +92,7 @@ menu a {
     margin: 10px 30px 10px 30px;
 
   }
-
-  /* Menu flottant */
-  menu {
-      top:0px;
-      margin:0px;
-      width: 100%;
-  }
-
-  menu ul {
-      padding: 10px;
-      text-align: center;
-      width: unset;
-      height: 90%vh;
-      background-color: rgb(27,52,134);
-      margin-top: 0;
-
-
-  }
-
-  menu a {
-      color: var(--menu-color);
-      text-decoration: none;
-      color: inherit;
-  }
-
-
-  menu>ul>li{
-      display: inline-flex;
-      width: unset;
-      height: 100%;
-      margin: auto;
-      align-items: center;
-  }
-
-  menu>ul>li:hover {
-      background-color: var(--menu-color);
-      color: black;
-  }
-
+}
 
 @media (max-width: 750px) {
   .logo{
