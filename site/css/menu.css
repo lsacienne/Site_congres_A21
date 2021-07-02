@@ -22,10 +22,10 @@ menu-container:hover menu {
     display: block;
 }
 
-menu ul { 
+menu ul {
     padding: 1vw;
     list-style-type: none;
-    background-color: rgb(15,57,194);;
+    background: linear-gradient(#4742b4, #ffd248);
     color: var(--menu-color);
 }
 
@@ -88,7 +88,7 @@ menu a {
         text-align: center;
         width: unset;
         height: 90%vh;
-        background-color: rgb(27,52,134);
+        background: linear-gradient(#4742b4, #ffd248);
         margin-top: 0;
 
 

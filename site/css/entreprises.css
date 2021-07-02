@@ -38,21 +38,20 @@ h2,h3{
   font-family: var(--ff-title);
 }
 
+h1{
+  font-size: 2rem;
+}
+
 h2{
   font-size: 1.75rem;
 }
 
 h3{
-  font-size: 2rem;
-}
-
-p{
-  margin-bottom: 0.85em;
   font-size: 1.5rem;
 }
 
-header{
-  /*padding: 1.5em 0 1em 0;*/
+p{
+  font-size: 1rem;
 }
 
 section,footer{
@@ -75,45 +74,41 @@ footer hr {
     color:rgb(184, 179, 179);
 }
 
+footer p{
+  margin-bottom: .5rem;
+}
+
 .footer-text {
     font-weight: bold;
 }
 
 .section-title{
   text-align: center;
-  /*padding-bottom: 1.5em;*/
 }
 
 .main-title{
   text-align: center;
   font-family: var(--ff-main);
-  font-size: 3rem;
   margin: 0;
   padding: 15vh 0;
-  font-size: 4rem;
   background-image: url(../images/background.jpg);
   background-size: cover;
   background-color: #333;
   color: white;
 }
 
-/*.main-image{
-  height: 50%;
-  width: 50%;
-  margin: auto;
-  padding: 5vh 0;
-}*/
 
 .intro{
   margin: 2em auto 2em auto;
   text-align: center;
-  justify-content: center;
 }
 
 .intro-title{
   box-shadow: 10px 5px 5px black;
   border : 10px inset grey;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  padding: 1em;
 }
 
 .highlight{
@@ -122,29 +117,30 @@ footer hr {
 
 
 .calendrier{
-  background-color: var(--calender-color);
+  background-color: grey;
   background-image: url(../images/logo.png);
   background-size: cover;
   background-attachment: fixed;
-  background-blend-mode: multiply;
+  /*background-blend-mode: multiply;*/
   color: white;
   text-align: center;
+  padding: 0;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .event-block{
   display: inline-block;
   margin-top: 1rem;
+  padding: 0.1em;
 }
 
-.event-block + .event-block{
-  padding-left: 1em;
-}
 
 .event{
   border-radius: 90px;
   border:solid black;
-  width: 165px;
-  height : 165px;
+  width: 125px;
+  height : 125px;
   margin: auto;
   line-height: 150px;
   text-align: center;
@@ -153,9 +149,23 @@ footer hr {
   color: black;
 }
 
+.upper-block{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.lower-block{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 
 .hour-text{
-  margin: 0;
+  margin-bottom: 0.5rem;
   text-align: center;
 }
 
@@ -169,17 +179,19 @@ footer hr {
 
 .plaquette{
   margin-bottom: 5rem;
+
 }
 
 .download{
   width: 200px;
-  height: auto;
+  height: 75px;
   background-color: var(--calender-color);
   margin: auto;
   text-align: center;
   padding: 10px;
   box-shadow: 0 0 1em rgba(142,68,173,1);
   border-radius: 1em;
+  padding: 1em;
 }
 
 .download a{
@@ -187,14 +199,14 @@ footer hr {
   color: white;
 }
 
+.download:hover{
+  width: 220px;
+  height: 85px
+}
+
 .question_answer{
   padding-top: 2em;
 }
-
-.question_answer{
-
-}
-
 
 .question{
   border-left: 5px solid grey;
@@ -204,7 +216,6 @@ footer hr {
 
 
 /* Medias querries : Utilisées pour le contenu sur un écran de pc */
-
 @media (min-width: 750px) {
   .main-image{
     height: 25%;
@@ -212,61 +223,45 @@ footer hr {
   }
 
   .main-title{
-    background-color: #333;
     margin: 4.9rem auto auto auto;
     padding: 20vh 0;
-    font-size: 4rem;
-    background-image: url(https://source.unsplash.com/random);
-    background-blend-mode: multiply;
-    background-size: cover;
-    color: white;
-
   }
 
   .intro-title{
-    margin: auto 20rem auto 20rem;
-    font-size: 2.5rem;
+    /*margin: auto 20rem auto 20rem;*/
+    margin: auto;
+    font-size: 2rem;
+    line-height: 1.5em;
   }
 
   .calendrier{
-    background-color: var(--calender-color);
-    background-image: url(../images/logo.png);
-    background-size: cover;
-    background-attachment: fixed;
-    background-blend-mode: multiply;
-    margin: 0;
     padding: auto auto 2rem auto;
   }
 
-  .event-block{
-    display: inline-block;
-    margin: 1rem 10rem auto 10rem;
-  }
-
-
-
-  .event-block + .event-block{
-    padding-left: 0;
-  }
-
   .event{
-    border-radius: 90px;
-    border:solid black;
     width: 165px;
     height : 165px;
-    margin: auto;
-    line-height: 150px;
-    text-align: center;
-    background-image: url(../images/calender.jpg);
-    background-size: cover;
   }
 
   .frise-image{
     margin: 5rem auto 5rem auto;
   }
 
+  h1{
+    font-size: 4rem;
+  }
+
   h2{
     font-size: 2.5rem;
+  }
+
+  h3{
+    font-size: 2rem;
+  }
+
+  p{
+    font-size: 1.75rem;
+    line-height: 2rem;
   }
 
 
