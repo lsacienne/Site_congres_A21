@@ -153,8 +153,8 @@ main {
 menu {
     /* position: -webkit-sticky; */
     position: fixed;
-    top: 2.5vh;
-    right: 1vh;
+    top: 3vh;
+    right: 10px;
 }
 
 menu-container menu {
@@ -173,7 +173,6 @@ menu ul {
 }
 
 menu>ul>li{
-    width: 100%;
     height: unset;
     margin: auto;
     align-items: center;
