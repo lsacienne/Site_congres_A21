@@ -4,7 +4,9 @@
     color: var(--text-color);
     position: fixed;
     right: 10px;
-    top: 10px;
+    top: 1vh;
+    padding:0;
+    margin: 0;
 }
 
 menu {
@@ -79,14 +81,14 @@ menu a {
     border-radius: 0.1em;
 }
 
-@media (min-width: 750px) {
+@media (min-width: 730px) {
     /* Menu flottant */
     .titre-menu {
         display: none;
     }
 
     menu {
-        position: absolute;
+        position: relative;
         display: unset;
         top:40px;
         right: 0px;
