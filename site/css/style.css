@@ -6,7 +6,9 @@
   --text-color: 'Anton', sans-serif;
   --ff-main: 'BetterFly', sans-serif;
   --ff-title: 'Fjalla One', sans-serif;
-  --menu-color: blanchedalmond;
+  /*--menu-color: blanchedalmond;*/
+  --menu-color: #4742b4;
+  --hover-color: #ffd248;
 }
 
 html{
@@ -154,7 +156,7 @@ main {
         height: 100vh;
         background: rgb(255,255,255);
         background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 60%, rgba(68,68,180,1) 100%);
-        margin:80px auto auto auto;
+        /*margin:80px auto auto auto*/
     }
     .main-content-flex {
         height: 0;
@@ -191,7 +193,7 @@ main {
     .texte {
         height: 100%;
     }
-    
+
 
 
 }

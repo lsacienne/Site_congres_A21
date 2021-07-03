@@ -72,8 +72,9 @@ menu a {
     }
 
     menu {
+        position: absolute;
         display: unset;
-        top:0px;
+        top:40px;
         right: 0px;
         margin:0px;
         width: 100%;
@@ -88,7 +89,7 @@ menu a {
         text-align: center;
         width: unset;
         height: 90%vh;
-        background: linear-gradient(#4742b4, #ffd248);
+        background: none;
         margin-top: 0;
 
 
@@ -110,7 +111,7 @@ menu a {
     }
 
     menu>ul>li:hover {
-        background-color: var(--menu-color);
+        background-color: var(--hover-color);
         color: black;
     }
 }
