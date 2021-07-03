@@ -145,6 +145,8 @@ main {
 
 .texte {
     margin: 12px;
+    text-align: justify;
+    width: 90vw;
     background: #9C9CD0;
     padding: 7px;
 }
@@ -197,6 +199,7 @@ main {
     }
     /* Contenu d'une rubrique dite "classique" */
     .image img {
+        height: unset;
         width: 40vw;
     }
 

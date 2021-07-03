@@ -1,0 +1,35 @@
+.carousel {
+    overflow: hidden;
+    width: 90vw;
+}
+
+.carousel ul {
+    width: 400%;
+    padding:0; 
+    margin:0;
+    list-style: none;
+}
+
+.carousel li {
+    float: left;
+}
+
+@media (min-width: 750px) {
+    .carousel {
+        width: 40vw;
+        height: unset;
+        overflow: hidden;
+    }
+    
+    .carousel ul {
+        width: 400%;
+        height: 100%;
+        padding:0; 
+        margin:0;
+        list-style: none;
+    }
+    
+    .carousel li {
+        float: left;
+    }
+}
