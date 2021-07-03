@@ -6,7 +6,9 @@
   --text-color: 'Anton', sans-serif;
   --ff-main: 'BetterFly', sans-serif;
   --ff-title: 'Fjalla One', sans-serif;
-  --menu-color: blanchedalmond;
+  /*--menu-color: blanchedalmond;*/
+  --menu-color: #4742b4;
+  --hover-color: #ffd248;
 }
 
 html{
