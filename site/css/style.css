@@ -63,6 +63,7 @@ main {
 .main-image {
     width: 50%;
     height: 20%;
+    display: none;
 }
 
 .main-content {

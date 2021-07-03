@@ -1,3 +1,4 @@
+/*
 let logo_congres = document.getElementsByClassName("main-image");
 
 // On fait une premier check à l'initialisation de la page pour charger le bon logo
@@ -21,3 +22,27 @@ function redimensionnement() {
 
 // On ajoute un eventListener qui va détecter quand la fenêtre change de taille
 window.addEventListener('resize', redimensionnement, false);
+*/
+
+/* Même codee avec jquery */
+let logo_congres = $('.main-image');
+logo_congres.fadeIn(3000);
+
+// On fait une premier check à l'initialisation de la page pour charger le bon logo.
+if($(window).width() > 750){
+    logo_congres.html('<img src="images/Congres_indus_UTBM2.png" alt="Image de programmation"></img>');
+} else {
+    logo_congres.html('<img src="images/logo.png" alt="Image de programmation"></img>');
+}
+
+//On ajoute un eventListener pour adapter le logo en fonction de la taille de la page.
+function redimensionnement(){
+    if($(window).width() > 750) {
+        logo_congres.html('<img src="images/Congres_indus_UTBM2.png" alt="Image de programmation"></img>');
+    } else {
+        logo_congres.html('<img src="images/logo.png" alt="Image de programmation"></img>');
+    }
+}
+
+
+$(window).on('resize',redimensionnement);

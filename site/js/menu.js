@@ -1,3 +1,4 @@
+/*
 let clicks = 0;
 let menu = document.getElementsByTagName("menu-container")[0];
 let symbol_menu = menu.getElementsByClassName("titre-menu")[0];
@@ -16,5 +17,21 @@ function updateClicks() {
 
 symbol_menu.addEventListener('click',updateClicks);
 
+*/
 
+/* Premier essai sur jQuerry */
+let symbol_menu = $('.titre-menu');
+let menu = $('menu-container');
+let content_menu = $('menu');
 
+symbol_menu.on('click',function() {
+    content_menu.slideToggle();
+});
+
+$(window).on('resize',function(){
+    if($(window).width() > 750) {
+        content_menu.css('display','unset');
+    } else {
+        content_menu.css('display','none');
+    }
+});
