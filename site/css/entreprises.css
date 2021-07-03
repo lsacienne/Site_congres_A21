@@ -6,10 +6,10 @@
   --text-color: 'Anton', sans-serif;
   --ff-main: 'BetterFly', sans-serif;
   --ff-title: 'Fjalla One', sans-serif;
-  /*--menu-color: blanchedalmond;*/
+  --light-color: blanchedalmond;
   --menu-color: #4742b4;
   --hover-color: #ffd248;
-  --highlight-color: orange;
+  --highlight-color: #ffd248;
   --calender-color: #764981;
 }
 
@@ -41,7 +41,7 @@ h2,h3{
 }
 
 h1{
-  font-size: 1.75rem;
+  font-size: 2rem;
 }
 
 h2{
@@ -64,7 +64,7 @@ footer{
   margin: auto;
   color:rgb(56, 53, 53);
   text-align: center;
-  background-color: orange;
+  background-color: var(--highlight-color);
 }
 
 footer h3 {
@@ -80,71 +80,106 @@ footer p{
   margin-bottom: .5rem;
 }
 
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
 .footer-text {
     font-weight: bold;
 }
 
 .section-title{
   text-align: center;
+  padding: 1em;
 }
 
 .main-title{
   text-align: center;
   font-family: var(--ff-main);
-  /*padding: 15vh 0;*/
-  /*background-image: url(../images/background.jpg);
-  background-size: cover;
-  background-color: #333;*/
   color: black;
-  margin: 15vh 0 0 0;
+  margin: 10vh 0;
+  padding: 2vh 0;
 }
 
 
-.intro{
-  margin: 2em auto 2em auto;
+.intro-title{
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  text-align: center;
+  padding: 1em;
+}
+
+.split{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.background1, .background2{
+  color: black;
   text-align: center;
 }
 
-.intro-title{
-  box-shadow: 10px 5px 5px black;
-  border : 10px inset grey;
-  line-height: 1.5rem;
-  padding: 1em;
-  font-size: 1rem;
-  margin: 2rem 0;
-
-}
-
-.highlight{
-  color: var(--highlight-color);
-}
-
-
-.calendrier{
-  background-color: grey;
+.background1{
+  color: white;
+  padding:15vh 0;
+  background-color: #333;
   background-image: url(../images/logo.png);
   background-size: cover;
   background-attachment: fixed;
-  /*background-blend-mode: multiply;*/
-  color: white;
-  text-align: center;
+  background-blend-mode: multiply;
+}
+
+.background2{
+  background-color: #4742b4;
+  padding: 3em 0;
+}
+
+
+.split .intro-title{
+  padding-left: 2em;
+}
+
+.b2-image{
+  padding: 0 2em;
+}
+
+
+
+.background1 .highlight{
+  color: var(--highlight-color);
+}
+
+.background2 .highlight{
+  color: var(--highlight-color);
+}
+
+.calendrier{
+  color: black;
   padding: 0;
-  padding-top: 1em;
-  padding-bottom: 1em;
+}
+
+.calendrier .split{
+  display:flex;
+  flex-direction: row;
 }
 
 .event-block{
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.18em;
+  flex-grow: 1;
+  margin: auto;
+  padding: 1em 0;
 }
-
 
 .event{
   border-radius: 90px;
   border:solid black;
-  width: 125px;
-  height : 125px;
+  width: 120px;
+  height : 120px;
   margin: auto;
   line-height: 150px;
   text-align: center;
@@ -155,17 +190,15 @@ footer p{
 }
 
 .upper-block{
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: column;
 }
 
 .lower-block{
+  width: 100%;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: column;
 }
 
 
@@ -206,7 +239,7 @@ footer p{
 
 .download:hover{
   width: 190px;
-  height: 60px
+  height: 60px;
 }
 
 .question_answer{
@@ -218,32 +251,57 @@ footer p{
   padding-left: 1em;
 }
 
+.faq{
+  box-shadow: 0 0 1em black;
+  margin: 0 1rem 5rem 1rem;
+}
+
 
 
 /*Medias querries : Utilisées pour le contenu sur un écran de pc */
 @media (min-width: 750px) {
-  .main-image{
-    height: 25%;
-    width: 25%;
-  }
 
   .main-title{
-    /*margin: 4.9rem auto auto auto;
-    padding: 20vh 0;*/
+    margin: 6rem auto auto auto;
+  /*  padding: 20vh 0;*/
+  }
+
+  .intro{
+    flex-direction: row;
   }
 
   .intro-title{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     line-height: 1.5em;
+  }
+
+  .split{
+    flex-direction: row;
+  }
+
+  .split > *{
+    flex-basis: 100%;
+  }
+
+  .upper-block + .lower-block{
+    padding-top: 1em;
+  }
+
+  .upper-block, .lower-block{
+    flex-direction: row;
   }
 
   .calendrier{
     padding: auto auto 2rem auto;
   }
 
+  .calendrier .split{
+    flex-direction: column;
+  }
+
   .event{
-    width: 150px;
-    height : 150px;
+    width: 140px;
+    height : 140px;
   }
 
   .frise-image{
@@ -260,8 +318,12 @@ footer p{
     height: 75px;
   }
 
+  .faq{
+    margin: 0 10rem 5rem 10rem;
+  }
+
   h1{
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   h2{
