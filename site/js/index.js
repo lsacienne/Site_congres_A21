@@ -26,7 +26,7 @@ window.addEventListener('resize', redimensionnement, false);
 
 /* Même codee avec jquery */
 let logo_congres = $('.main-image');
-logo_congres.fadeIn(3000);
+logo_congres.fadeIn(1500);
 
 // On fait une premier check à l'initialisation de la page pour charger le bon logo.
 if($(window).width() > 750){
