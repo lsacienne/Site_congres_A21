@@ -40,7 +40,8 @@ body{
 
 .image img {
     display: block;
-    max-width: 100%;
+    min-width: 100%;
+    max-height: 100%;
     height: auto;
     width: 90vw;
     object-fit: contain;
@@ -191,10 +192,6 @@ main {
         justify-content: center;
         align-items: center;
         text-align: center;    }
-
-        .rubrique2 > *{
-          flex-basis: 100%;
-        }
 
     /* Trois datas (ou plus) données en début de page */
 
