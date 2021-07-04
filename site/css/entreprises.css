@@ -24,7 +24,7 @@
   --hover-color: #ffd248;
   --highlight-color: #ffd248;
   --calendrier-top: #E6E7E8;
-  --calendrier-box: #D6D8D9;
+  --calendrier-box: #BDBDBD;
   --download-color: #764981;
 }
 
@@ -191,10 +191,13 @@ img{
 .calendrier-top{
   color: var(--calendrier-top);
   background: #4742b4;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
 }
 
 .calendrier-box{
   border:solid var(--calendrier-box);
+  border-radius: 20px;
 }
 
 .calendrier-title{
@@ -349,13 +352,12 @@ img{
     flex-basis: 100%;
   }
 
-  /*.upper-block + .lower-block{
-    padding-top: 1em;
-  }*/
-
   .upper-block, .lower-block{
     flex-direction: row;
-    border-top: solid var(--calendrier-box);
+  }
+
+  .upper-block + .lower-block{
+    border: none;
   }
 
   .calendrier{
