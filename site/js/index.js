@@ -25,29 +25,29 @@ window.addEventListener('resize', redimensionnement, false);
 */
 
 /* Même codee avec jquery */
-AOS.init();
+$(function(){
+    AOS.init();
 
-let logo_congres = $('.main-image');
+    let logo_congres = $('.main-image');
 
-logo_congres.fadeIn(1500);
+    logo_congres.fadeIn(1500);
 
-// On fait une premier check à l'initialisation de la page pour charger le bon logo.
-if($(window).width() > 750){
-    logo_congres.html('<img src="images/Congres_indus_UTBM2.png" alt="Image de programmation"></img>');
-} else {
-    logo_congres.html('<img src="images/logo.png" alt="Image de programmation"></img>');
-}
-
-//On ajoute un eventListener pour adapter le logo en fonction de la taille de la page.
-function redimensionnement(){
-    if($(window).width() > 750) {
+    // On fait une premier check à l'initialisation de la page pour charger le bon logo.
+    if($(window).width() > 750){
         logo_congres.html('<img src="images/Congres_indus_UTBM2.png" alt="Image de programmation"></img>');
     } else {
         logo_congres.html('<img src="images/logo.png" alt="Image de programmation"></img>');
     }
-}
 
+    //On ajoute un eventListener pour adapter le logo en fonction de la taille de la page.
+    function redimensionnement(){
+        if($(window).width() > 750) {
+            logo_congres.html('<img src="images/Congres_indus_UTBM2.png" alt="Image de programmation"></img>');
+        } else {
+            logo_congres.html('<img src="images/logo.png" alt="Image de programmation"></img>');
+        }
+    }
+    $(window).on('resize',redimensionnement);
+    window.addEventListener('load', AOS.refresh);
+})
 
-
-
-$(window).on('resize',redimensionnement);
