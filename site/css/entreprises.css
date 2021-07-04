@@ -23,7 +23,9 @@
   --menu-color: #4742b4;
   --hover-color: #ffd248;
   --highlight-color: #ffd248;
-  --calender-color: #764981;
+  --calendrier-top: #E6E7E8;
+  --calendrier-box: #D6D8D9;
+  --download-color: #764981;
 }
 
 *{
@@ -167,8 +169,6 @@ img{
   padding: 0 2em;
 }
 
-
-
 .background1 .highlight{
   color: var(--highlight-color);
 }
@@ -177,9 +177,30 @@ img{
   color: var(--highlight-color);
 }
 
+.h3-date{
+  padding-left: .5em;
+}
+
 .calendrier{
   color: black;
-  padding: 0;
+  padding: 5em 0;
+  width: 95%;
+  margin: auto;
+}
+
+.calendrier-top{
+  color: var(--calendrier-top);
+  background: #4742b4;
+}
+
+.calendrier-box{
+  border:solid var(--calendrier-box);
+}
+
+.calendrier-title{
+  text-align: center;
+  border-bottom: none;
+  padding: .5em 0;
 }
 
 .calendrier .split{
@@ -188,10 +209,23 @@ img{
 }
 
 .event-block{
+  width: 100%;
   flex-grow: 1;
   margin: auto;
-  padding: 1em 0;
+  padding: .5em 0;
+  border-top:solid var(--calendrier-box);
 }
+
+.event-block:hover{
+  color: white;
+  background-color: rgba(71,66,180,.7);
+}
+
+.event-block:focus  {
+  color: black;
+  background-color: #4742b4;
+}
+
 
 .event{
   border-radius: 90px;
@@ -219,10 +253,14 @@ img{
   flex-direction: column;
 }
 
+.upper-block + .lower-block{
+  border-left:solid var(--calendrier-box);
+
+}
 
 .hour-text{
   margin-bottom: 0.5rem;
-  text-align: center;
+  margin-left: .5rem;
 }
 
 .frise{
@@ -241,7 +279,7 @@ img{
 .download{
   width: 180px;
   height: 55px;
-  background-color: var(--calender-color);
+  background-color: var(--download-color);
   margin: auto;
   text-align: center;
   padding: 10px;
@@ -311,12 +349,13 @@ img{
     flex-basis: 100%;
   }
 
-  .upper-block + .lower-block{
+  /*.upper-block + .lower-block{
     padding-top: 1em;
-  }
+  }*/
 
   .upper-block, .lower-block{
     flex-direction: row;
+    border-top: solid var(--calendrier-box);
   }
 
   .calendrier{
@@ -330,6 +369,10 @@ img{
   .event{
     width: 140px;
     height : 140px;
+  }
+
+  .event-block + .event-block{
+    border-left:solid var(--calendrier-box);
   }
 
   .frise-image{
@@ -363,7 +406,7 @@ img{
   }
 
   p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 2rem;
   }
 
