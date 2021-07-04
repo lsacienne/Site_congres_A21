@@ -40,8 +40,8 @@ body{
 
 .image img {
     display: block;
-    max-height: 100%;
-    min-width: 100%;
+    max-width: 100%;
+    height: auto;
     width: 90vw;
     object-fit: contain;
 }
@@ -94,7 +94,7 @@ main {
     flex-direction: line;
 }
 
-.rubrique {
+.rubrique, .rubrique2 {
     /*border:dashed red;*/
     display: flex;
     flex-direction: column;
@@ -180,7 +180,7 @@ main {
         flex-direction: column;
     }
 
-    .rubrique {
+    .rubrique, .rubrique2 {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -190,8 +190,12 @@ main {
         margin: 10px;
         justify-content: center;
         align-items: center;
-        text-align: center;
-    }
+        text-align: center;    }
+
+        .rubrique2 > *{
+          flex-basis: 100%;
+        }
+
     /* Trois datas (ou plus) données en début de page */
 
     .data {
