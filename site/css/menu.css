@@ -14,19 +14,19 @@ menu {
     position: fixed;
     top: 3vh;
     right: 10px;
-    
+
 }
 
 menu-container menu {
     display: none;
-    
+
 }
 /*
 menu-container:hover menu {
     display: block;
 }
 */
-menu ul { 
+menu ul {
     padding: 1vw;
     list-style-type: none;
     background-color:#4742b4 ;
@@ -37,7 +37,7 @@ menu ul {
     color: var(--hover-color);
     border: solid #9C9CD0 2px;
     border-radius: 0.3em;
-    
+
 }
 
 menu>ul>li{
@@ -88,13 +88,13 @@ menu a {
     }
 
     menu {
-        position: relative;
+        position: absolute;
         display: unset;
-        top:40px;
+        top:0px;
         right: 0px;
         margin:0px;
         width: 100%;
-    }
+      }
 
     menu-container menu {
         display: unset;

@@ -1,16 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
-@import url('https://db.onlinewebfonts.com/c/273d109a90780d8fe7bbe69817a67397?family=betterfly');
+
+@font-face {
+    font-family: 'betterfly';
+    font-style: normal;
+    font-weight: 400;
+    src: local('betterfly'), url('https://fonts.cdnfonts.com/s/40229/Betterfly-D6v9.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'betterfly';
+    font-style: normal;
+    font-weight: 400;
+    src: local('betterfly'), url('https://fonts.cdnfonts.com/s/40229/Betterfly-z4x1.woff') format('woff');
+}
 
 :root{
   --text-color: 'Anton', sans-serif;
-  --ff-main: 'BetterFly', sans-serif;
+  --ff-main: 'betterfly', sans-serif;
   --ff-title: 'Fjalla One', sans-serif;
   --light-color: blanchedalmond;
   --menu-color: #4742b4;
   --hover-color: #ffd248;
   --highlight-color: #ffd248;
   --calender-color: #764981;
+}
+
+*{
+  margin: 0;
+  padding: 0;
 }
 
 html{
@@ -100,8 +118,7 @@ img{
   text-align: center;
   font-family: var(--ff-main);
   color: black;
-  margin: 10vh 0;
-  padding: 2vh 0;
+  padding: 7.5vh 0;
 }
 
 
@@ -128,6 +145,7 @@ img{
 .background1{
   color: white;
   padding:15vh 0;
+  margin: 0;
   background-color: #333;
   background-image: url(../images/logo.png);
   background-size: cover;
@@ -261,9 +279,19 @@ img{
 /*Medias querries : Utilisées pour le contenu sur un écran de pc */
 @media (min-width: 750px) {
 
+  /* Contenu du header */
+  .main-content {
+      height: 100vh;
+  }
+  .main-content-flex {
+      height: 0;
+
+  }
+
   .main-title{
-    margin: 6rem auto auto auto;
-  /*  padding: 20vh 0;*/
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    padding: 0 0;
   }
 
   .intro{
