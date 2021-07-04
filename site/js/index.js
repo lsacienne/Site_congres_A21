@@ -25,7 +25,10 @@ window.addEventListener('resize', redimensionnement, false);
 */
 
 /* Même codee avec jquery */
+AOS.init();
+
 let logo_congres = $('.main-image');
+
 logo_congres.fadeIn(1500);
 
 // On fait une premier check à l'initialisation de la page pour charger le bon logo.
@@ -43,6 +46,8 @@ function redimensionnement(){
         logo_congres.html('<img src="images/logo.png" alt="Image de programmation"></img>');
     }
 }
+
+
 
 
 $(window).on('resize',redimensionnement);
