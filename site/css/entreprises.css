@@ -92,7 +92,7 @@ footer h3 {
 }
 
 footer hr {
-    width: 50%;
+    width: 100%;
     color:rgb(184, 179, 179);
 }
 
@@ -226,7 +226,15 @@ img{
 
 .event-block:focus  {
   color: black;
-  background-color: #4742b4;
+  background-color: #4742b4; 
+}
+
+.event-bottom-left:hover {
+  border-bottom-left-radius: 18px;
+}
+
+.event-bottom-right:hover {
+  border-bottom-right-radius: 18px;
 }
 
 

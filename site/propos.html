@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,25 +10,31 @@
   <link rel="icon" type="image/png" sizes="16x16" href="images/logo.png">
   <title>A Propos</title>
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- Animations via une bibliothèque css et js : AOS (Animated On Scroll) -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <!-- Bibliothèque jQuerry -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <menu-container>
     <div class="titre-menu">
-        <div class="carre">
-            <div class="rect"></div>
-            <div class="rect"></div>
-            <div class="rect"></div>
-        </div>
+      <div class="carre">
+        <div class="rect"></div>
+        <div class="rect"></div>
+        <div class="rect"></div>
+      </div>
     </div>
     <menu>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="entreprises.html">Espace entreprise</a></li>
-            <li><a href="#">Espace étudiants</a></li>
-            <li><a href="propos.html">A Propos</a></li>
-        </ul>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="entreprises.html">Espace entreprise</a></li>
+        <li><a href="#">Espace étudiants</a></li>
+        <li><a href="propos.html">A Propos</a></li>
+      </ul>
     </menu>
   </menu-container>
   <script src="js/menu.js"></script>
@@ -37,58 +44,60 @@
       <p>Nombreux partenaires financiers <br> nous ont apporté main forte afin d'organiser ce Congrès 2021</p>
     </div>
   </header>
-  <main>
+  <main data-aos="fade-up">
     <div class="ligne">
       <div class="logo" id="seekube">
         <a target="_blank" href="https://www.seekube.com/"><img src="images/seekube.png" alt=""></a>
       </div>
-   </div>
+    </div>
 
     <div class="ligne">
       <div class="logo">
         <a target="_blank" href="https://smerra.fr/"><img src="images/smerra.png" alt=""></a>
       </div>
-   </div>
-
-   <div class="ligne">
-     <div class="logo">
-       <a target="_blank" href="https://ae.utbm.fr/"><img src="images/ae.jpg" alt=""></a>
-     </div>
-
-     <div class="logo">
-       <a target="_blank" href="https://www.utbm.fr/"><img src="images/utbm.jpg" alt=""></a>
-     </div>
-  </div>
-
-  <div class="ligne">
-    <div class="logo">
-      <a target="_blank" href="http://www.agglo-montbeliard.fr/"><img src="images/montbé-agglo.png" alt=""></a>
     </div>
 
-    <div class="logo">
-      <a target="_blank" href="https://www.belfort.fr/accueil-3.html"><img src="images/ville-belfort.png" alt=""></a>
+    <div class="ligne" >
+      <div class="logo">
+        <a target="_blank" href="https://ae.utbm.fr/"><img src="images/ae.jpg" alt=""></a>
+      </div>
+
+      <div class="logo">
+        <a target="_blank" href="https://www.utbm.fr/"><img src="images/utbm.jpg" alt=""></a>
+      </div>
     </div>
 
-    <div class="logo">
-      <a target="_blank" href="https://www.territoiredebelfort.fr/"><img src="images/territoire-belfort.png" alt=""></a>
+    <div class="ligne">
+      <div class="logo">
+        <a target="_blank" href="http://www.agglo-montbeliard.fr/"><img src="images/montbé-agglo.png" alt=""></a>
+      </div>
+
+      <div class="logo">
+        <a target="_blank" href="https://www.belfort.fr/accueil-3.html"><img src="images/ville-belfort.png" alt=""></a>
+      </div>
+
+      <div class="logo">
+        <a target="_blank" href="https://www.territoiredebelfort.fr/"><img src="images/territoire-belfort.png"
+            alt=""></a>
+      </div>
     </div>
- </div>
 
- <div class="ligne">
-   <div class="logo">
-     <a target="_blank" href="https://www.credit-agricole.fr/ca-franchecomte/particulier.html"><img src="images/ca.jpg" alt=""></a>
-   </div>
+    <div class="ligne">
+      <div class="logo">
+        <a target="_blank" href="https://www.credit-agricole.fr/ca-franchecomte/particulier.html"><img
+            src="images/ca.jpg" alt=""></a>
+      </div>
 
-   <div class="logo">
-     <a target="_blank" href="http://www.lemoloco.com/"><img src="images/moloco.jpg" alt=""></a>
-   </div>
-</div>
+      <div class="logo">
+        <a target="_blank" href="http://www.lemoloco.com/"><img src="images/moloco.jpg" alt=""></a>
+      </div>
+    </div>
 
-<div class="ligne">
-  <div class="logo">
-    <a target="_blank" href="https://www.rentacar.fr/"><img src="images/rent-a-car.jpg" alt=""></a>
-  </div>
-</div>
+    <div class="ligne">
+      <div class="logo">
+        <a target="_blank" href="https://www.rentacar.fr/"><img src="images/rent-a-car.jpg" alt=""></a>
+      </div>
+    </div>
 
 
 
@@ -97,4 +106,8 @@
 
 
 </body>
+<script>
+  AOS.init()
+</script>
+
 </html>

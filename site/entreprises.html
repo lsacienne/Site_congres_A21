@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,44 +9,50 @@
   <link rel="stylesheet" href="css/menu.css">
   <link rel="icon" type="image/png" sizes="16x16" href="images/logo.png">
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- Bibliothèque jQuerry -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <!-- Script de la page entreprises -->
+  <script src="js/entreprises.js" defer></script>
   <title>Entreprises</title>
 </head>
 
-<!-- Menu flottant -->
 <body>
+
+  <!-- Menu flottant -->
+  <menu-container>
+    <div class="titre-menu">
+      <div class="carre">
+        <div class="rect"></div>
+        <div class="rect"></div>
+        <div class="rect"></div>
+      </div>
+    </div>
+    <menu>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="entreprises.html">Espace entreprise</a></li>
+        <li><a href="#">Espace étudiants</a></li>
+        <li><a href="propos.html">A Propos</a></li>
+      </ul>
+    </menu>
+  </menu-container>
+  <script src="js/menu.js"></script>
+
   <header>
-      <menu-container>
-        <div class="titre-menu">
-            <div class="carre">
-                <div class="rect"></div>
-                <div class="rect"></div>
-                <div class="rect"></div>
-            </div>
-        </div>
-        <menu>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="entreprises.html">Espace entreprise</a></li>
-                <li><a href="#">Espace étudiants</a></li>
-                <li><a href="propos.html">A Propos</a></li>
-            </ul>
-        </menu>
-      </menu-container>
-      <script src="js/menu.js"></script>
-  </div>
-  <div>
-    <h1 class="main-title">Espace entreprise</h1>
-  </div>
+    <div>
+      <h1 class="main-title">Espace entreprise</h1>
+    </div>
   </header>
 
   <main>
     <section class="background1">
-            <h2 class="intro-title">
-              Le <span class="highlight">Congrès Industriel 2021</span> organisé par les étudiants de l'UTBM
-              vous permettra de rencontrer des <span class="highlight">ingénieurs en devenir</span>, désireux
-              de vivre de nouvelles expériences.
-            </h2>
+      <h2 class="intro-title">
+        Le <span class="highlight">Congrès Industriel 2021</span> organisé par les étudiants de l'UTBM
+        vous permettra de rencontrer des <span class="highlight">ingénieurs en devenir</span>, désireux
+        de vivre de nouvelles expériences.
+      </h2>
     </section>
 
 
@@ -60,32 +67,32 @@
 
         <div class="split">
           <div class="upper-block">
-              <div class="event-block" tabindex="1">
-                <div>
-                  <p class="hour-text">12h00</p>
-                </div>
-                <div class="event">
-                  Activité 1
-                </div>
+            <div class="event-block" tabindex="1">
+              <div>
+                <p class="hour-text">12h00</p>
               </div>
+              <div class="event">
+                Activité 1
+              </div>
+            </div>
 
-              <div class="event-block" tabindex="2">
-                <div>
-                  <p class="hour-text">12h00</p>
-                </div>
-                <div class="event">
-                  Activité 2
-                </div>
+            <div class="event-block" tabindex="2">
+              <div>
+                <p class="hour-text">12h00</p>
               </div>
+              <div class="event">
+                Activité 2
+              </div>
+            </div>
 
-              <div class="event-block" tabindex="3">
-                <div>
-                  <p class="hour-text">12h00</p>
-                </div>
-                <div class="event">
-                  Activité 3
-                </div>
+            <div class="event-block" tabindex="3">
+              <div>
+                <p class="hour-text">12h00</p>
               </div>
+              <div class="event">
+                Activité 3
+              </div>
+            </div>
 
             <div class="event-block" tabindex="4">
               <div>
@@ -107,71 +114,72 @@
 
           </div>
 
-            <div class="lower-block">
-              <div class="event-block" tabindex="6">
-                <div>
-                  <p class="hour-text">12h00</p>
-                </div>
-                <div class="event">
-                  Activité 6
-                </div>
+          <div class="lower-block">
+            <div class="event-block" tabindex="6">
+              <div>
+                <p class="hour-text">12h00</p>
               </div>
-
-              <div class="event-block" tabindex="7">
-                <div>
-                  <p class="hour-text">12h00</p>
-                </div>
-                <div class="event">
-                  Activité 7
-                </div>
+              <div class="event">
+                Activité 6
               </div>
-
-              <div class="event-block" tabindex="8">
-                <div>
-                  <p class="hour-text">12h00</p>
-                </div>
-                <div class="event">
-                  Activité 8
-                </div>
-              </div>
-
-              <div class="event-block" tabindex="9">
-                <div>
-                  <p class="hour-text">12h00</p>
-                </div>
-                <div class="event">
-                  Activité 9
-                </div>
-              </div>
-
-              <div class="event-block" tabindex="10">
-                <div>
-                  <p class="hour-text">12h00</p>
-                </div>
-                <div class="event">
-                  Activité 10
-                </div>
-              </div>
-
             </div>
+
+            <div class="event-block" tabindex="7">
+              <div>
+                <p class="hour-text">12h00</p>
+              </div>
+              <div class="event">
+                Activité 7
+              </div>
+            </div>
+
+            <div class="event-block" tabindex="8">
+              <div>
+                <p class="hour-text">12h00</p>
+              </div>
+              <div class="event">
+                Activité 8
+              </div>
+            </div>
+
+            <div class="event-block" tabindex="9">
+              <div>
+                <p class="hour-text">12h00</p>
+              </div>
+              <div class="event">
+                Activité 9
+              </div>
+            </div>
+
+            <div class="event-block event-bottom-right" tabindex="10">
+              <div>
+                <p class="hour-text">12h00</p>
+              </div>
+              <div class="event">
+                Activité 10
+              </div>
+            </div>
+
           </div>
         </div>
+      </div>
     </section>
 
     <section class="background2">
       <div class="split">
-          <div class="b2-image">
-            <img src="https://source.unsplash.com/800x500/?code,html" alt="">
-          </div>
+        <div class="b2-image">
+          <img src="https://source.unsplash.com/800x500/?code,html" alt="">
+        </div>
         <div class="text">
           <h2 class="section-title">
             Des chiffres clés...
           </h2>
           <h3 class="intro-title">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt nam labore optio omnis quae ipsam, laboriosam accusantium natus illum placeat veritatis cum doloremque veniam ratione. Quod odio et, rem iure!
-        </h3>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt nam labore optio omnis quae ipsam,
+            laboriosam accusantium natus illum placeat veritatis cum doloremque veniam ratione. Quod odio et, rem iure!
+          </h3>
+        </div>
       </div>
-    </div>
 
     </section>
 
@@ -181,7 +189,10 @@
 
     <section class="plaquette">
       <div class="download">
-        <a target="_blank" href="docs/congres_industriel_utbm_2021_plaquette_de_presentation_V2.pdf" download="Congrès_2021_plaquette"><h3>Télécharger la plaquette</h3></a>
+        <a target="_blank" href="docs/congres_industriel_utbm_2021_plaquette_de_presentation_V2.pdf"
+          download="Congrès_2021_plaquette">
+          <h3>Télécharger la plaquette</h3>
+        </a>
       </div>
     </section>
 
@@ -198,42 +209,59 @@
         </h2>
       </header>
       <div class="question_answer">
-        <strong><p class="question">Je suis une question</p></strong>
-        <i><p>Je suis une réponse</p></i>
+        <strong>
+          <p class="question">Je suis une question</p>
+        </strong>
+        <i>
+          <p>Je suis une réponse</p>
+        </i>
       </div>
 
       <div class="question_answer">
-        <strong><p class="question">Je suis une question</p></strong>
-        <i><p>Je suis une réponse</p></i>
+        <strong>
+          <p class="question">Je suis une question</p>
+        </strong>
+        <i>
+          <p>Je suis une réponse</p>
+        </i>
       </div>
 
       <div class="question_answer">
-        <strong><p class="question">Je suis une question</p></strong>
-        <i><p>Je suis une réponse</p></i>
+        <strong>
+          <p class="question">Je suis une question</p>
+        </strong>
+        <i>
+          <p>Je suis une réponse</p>
+        </i>
       </div>
 
       <div class="question_answer">
-        <strong><p class="question">Je suis une question</p></strong>
-        <i><p>Je suis une réponse</p></i>
+        <strong>
+          <p class="question">Je suis une question</p>
+        </strong>
+        <i>
+          <p>Je suis une réponse</p>
+        </i>
       </div>
 
     </section>
 
     <footer>
-        <address>
-            <h3>Nous contacter</h3>
-            <hr>
-            <p>Envoyez nous un e-mail ou appelez-nous :</p>
-            <p>E-mail :
-                <span class="footer-text">blabla@lololo.fr</span>
-            </p>
-            <p>Téléphone :
-                <span class="footer-text">(+33)6.23.24.21.52</span>
-            </p>
-            <p>&copy; Moi 2021. Tous droits réservés.</p>
-    </address>
+      <address>
+        <h3>Nous contacter</h3>
+        <hr>
+        <p>Envoyez nous un e-mail ou appelez-nous :</p>
+        <p>E-mail :
+          <span class="footer-text">blabla@lololo.fr</span>
+        </p>
+        <p>Téléphone :
+          <span class="footer-text">(+33)6.23.24.21.52</span>
+        </p>
+        <p>&copy; Congrès Industriel UTBM 2021. Tous droits réservés.</p>
+      </address>
     </footer>
 
   </main>
 </body>
+
 </html>
