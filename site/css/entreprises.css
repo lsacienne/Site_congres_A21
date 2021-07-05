@@ -361,7 +361,7 @@ img{
 
   .main-title{
     font-family: var(--ff-main);
-    text-align: center
+    text-align: center;
     margin: auto;
   }
 
