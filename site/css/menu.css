@@ -7,37 +7,22 @@
     top: 1vh;
     padding:0;
     margin: 0;
+    cursor: pointer;
 }
 
 menu {
-    /* position: -webkit-sticky; */
     position: fixed;
     top: 3vh;
     right: 10px;
-
 }
 
-menu-container menu {
-    display: none;
-
-}
-/*
-menu-container:hover menu {
-    display: block;
-}
-*/
 menu ul {
     padding: 1vw;
     list-style-type: none;
     background-color:#4742b4 ;
-    /*
-    background: linear-gradient(#4742b4, #ffd248);
-    color: var(--menu-color);
-    */
     color: var(--hover-color);
     border: solid #9C9CD0 2px;
     border-radius: 0.3em;
-
 }
 
 menu>ul>li{

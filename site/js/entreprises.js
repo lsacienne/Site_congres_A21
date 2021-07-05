@@ -18,4 +18,3 @@ $(window).on('resize',function(){
         event_bottom.first().removeClass("event-bottom-left");
     }
 })
-
