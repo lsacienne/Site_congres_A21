@@ -16,6 +16,10 @@ menu {
     right: 10px;
 }
 
+menu-container menu {
+    display: none;
+}
+
 menu ul {
     padding: 1vw;
     list-style-type: none;

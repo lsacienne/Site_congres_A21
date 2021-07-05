@@ -234,6 +234,7 @@ img{
   margin: auto;
   padding: .5em 0;
   border-top:solid var(--calendrier-box);
+  cursor: pointer;
 }
 
 .event-block:hover{
