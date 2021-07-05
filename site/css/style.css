@@ -110,6 +110,10 @@ main {
     text-align: center;
 }
 
+.disposition2 {
+    flex-direction: column-reverse;
+}
+
 /* Trois datas (ou plus) données en début de page */
 
 .data {
@@ -192,7 +196,9 @@ main {
         margin: 10px;
         justify-content: center;
         align-items: center;
-        text-align: center;    }
+        text-align: center;    
+    }
+
 
     /* Trois datas (ou plus) données en début de page */
 
