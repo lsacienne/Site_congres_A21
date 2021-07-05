@@ -1,4 +1,4 @@
-
+AOS.init();
 /* On rège ici le border-radius des blocks de calendrier */
 let event_top = $('.upper-block .event-block');
 let event_bottom = $('.lower-block .event-block');
@@ -18,3 +18,4 @@ $(window).on('resize',function(){
         event_bottom.first().removeClass("event-bottom-left");
     }
 })
+

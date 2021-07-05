@@ -7,57 +7,77 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/entreprises.css">
   <link rel="stylesheet" href="css/menu.css">
+
+  <!-- Icone du site affiché sur l'onglet -->
   <link rel="icon" type="image/png" sizes="16x16" href="images/logo.png">
 
-  <!-- Bibliothèque jQuerry -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- Animations via une bibliothèque css et js : AOS (Animated On Scroll) -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-  <!-- Script de la page entreprises -->
+  <!-- Bibliothèque jQuerry -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="js/entreprises.js" defer></script>
+
   <title>Entreprises</title>
 </head>
 
 <body>
-
-  <!-- Menu flottant -->
-  <menu-container>
-    <div class="titre-menu">
-      <div class="carre">
-        <div class="rect"></div>
-        <div class="rect"></div>
-        <div class="rect"></div>
-      </div>
-    </div>
-    <menu>
-      <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="entreprises.html">Espace entreprise</a></li>
-        <li><a href="#">Espace étudiants</a></li>
-        <li><a href="propos.html">A Propos</a></li>
-      </ul>
-    </menu>
-  </menu-container>
-  <script src="js/menu.js"></script>
-
   <header>
-    <div>
-      <h1 class="main-title">Espace entreprise</h1>
-    </div>
+     <!-- Menu flottant -->
+      <menu-container>
+        <div class="titre-menu">
+            <div class="carre">
+                <div class="rect"></div>
+                <div class="rect"></div>
+                <div class="rect"></div>
+            </div>
+        </div>
+        <menu>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="entreprises.html">Espace entreprise</a></li>
+                <li><a href="#">Espace étudiants</a></li>
+                <li><a href="propos.html">A Propos</a></li>
+            </ul>
+        </menu>
+      </menu-container>
+      <script src="js/menu.js"></script>
+  </div>
   </header>
 
   <main>
-    <section class="background1">
-      <h2 class="intro-title">
-        Le <span class="highlight">Congrès Industriel 2021</span> organisé par les étudiants de l'UTBM
-        vous permettra de rencontrer des <span class="highlight">ingénieurs en devenir</span>, désireux
-        de vivre de nouvelles expériences.
-      </h2>
+    <section class="background1" >
+        <h1 class="main-title">Espace entreprise</h1>
     </section>
 
+    <section>
+      <h2 class="intro-title" data-aos="fade-up">
+          Le <span class="highlight">Congrès Industriel 2021</span> organisé par les étudiants de l'UTBM
+          vous permettra de rencontrer des <span class="highlight">ingénieurs en devenir</span>, désireux
+          de vivre de nouvelles expériences.
+        </h2>
+    </section>
+
+    <section class="background2">
+      <div class="split">
+          <div class="b2-image">
+            <img src="https://source.unsplash.com/800x500/?code,html" alt="">
+          </div>
+        <div class="text">
+          <h2 class="section-title">
+            Des chiffres clés...
+          </h2>
+          <h3 class="intro-title">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt nam labore optio omnis quae ipsam, laboriosam accusantium natus illum placeat veritatis cum doloremque veniam ratione. Quod odio et, rem iure!
+        </h3>
+      </div>
+    </div>
+
+    </section>
 
     <section class="calendrier">
-      <div class="calendrier-box">
+      <div class="calendrier-box" data-aos="fade-right">
         <header class="calendrier-top">
           <h2 class="calendrier-title">
             Calendrier événementiel
@@ -181,8 +201,11 @@
         </div>
       </div>
 
-    </section>
+    <!--******************************
+    Commenté en attendant d'être modifié
+    ***********************************->
 
+    <!--
     <section class="frise">
       <img src="images/frise-entreprises.png" alt="" class="frise-image">
     </section>
@@ -196,13 +219,7 @@
       </div>
     </section>
 
-    <!--******************************************
-    FAQ commenté car je trouve qu'elle surcharge
-    la page. Eventuellement créer une autre page où on
-    réunit les faq ?
-    **********************************************-->
-
-    <section class="faq">
+    <section class="faq" data-aos="flip-left">
       <header>
         <h2 class="section-title">
           FAQ
@@ -244,7 +261,7 @@
         </i>
       </div>
 
-    </section>
+    </section>-->
 
     <footer>
       <address>
