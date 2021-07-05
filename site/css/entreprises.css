@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,700;1,600&display=swap');
 
 @font-face {
     font-family: 'betterfly';
@@ -17,8 +18,9 @@
 
 :root{
   --text-color: 'Anton', sans-serif;
-  --ff-main: 'betterfly', sans-serif;
+  --ff-intro: 'Crimson Text', serif;
   --ff-title: 'Fjalla One', sans-serif;
+  --ff-main: 'betterfly', sans-serif;
   --light-color: blanchedalmond;
   --menu-color: #4742b4;
   --hover-color: #ffd248;
@@ -36,6 +38,7 @@
 html{
   box-sizing: border-box;
   color: var(--text-color);
+  overflow-x: hidden;
 }
 
 body{
@@ -92,7 +95,8 @@ footer h3 {
 }
 
 footer hr {
-    width: 50%;
+    width: 25%;
+    margin: auto;
     color:rgb(184, 179, 179);
 }
 
@@ -117,18 +121,25 @@ img{
 }
 
 .main-title{
-  text-align: center;
   font-family: var(--ff-main);
-  color: black;
-  padding: 7.5vh 0;
+  color: white;
+  padding: .5em;
+  text-align: center;
+  margin: auto;
 }
 
 
 .intro-title{
-  font-size: 0.9rem;
-  line-height: 1.25rem;
+  color: rgb(56, 53, 53);
+  font-family: var(--ff-intro);
+  font-size: 1.25rem;
+  line-height: 1.5rem;
   text-align: center;
   padding: 1em;
+}
+
+.background2 .intro-title{
+  color: black;
 }
 
 .split{
@@ -146,17 +157,20 @@ img{
 
 .background1{
   color: white;
-  padding:15vh 0;
-  margin: 0;
+  padding:13vh 0;
+
+
   background-color: #333;
-  background-image: url(../images/logo.png);
+  /*background-image: url(../images/logo.png);*/
+  background-image: url(https://source.unsplash.com/random);
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: multiply;
+
 }
 
 .background2{
-  background-color: #4742b4;
+  background-color: #CECECE;
   padding: 3em 0;
 }
 
@@ -166,11 +180,18 @@ img{
 }
 
 .b2-image{
-  padding: 0 2em;
+  /*background-color: #4742b4;*/
+  margin: 0 1rem;
+  border: outset 10px grey;
+  /*padding: 1em;*/
 }
 
-.background1 .highlight{
-  color: var(--highlight-color);
+.text{
+
+}
+
+.intro-title .highlight{
+  color: #4742b4;
 }
 
 .background2 .highlight{
@@ -183,7 +204,7 @@ img{
 
 .calendrier{
   color: black;
-  padding: 5em 0;
+  padding: 2rem 0;
   width: 95%;
   margin: auto;
 }
@@ -198,6 +219,7 @@ img{
 .calendrier-box{
   border:solid var(--calendrier-box);
   border-radius: 20px;
+  box-shadow: 15px 20px 0 rgba(189,189,189,0.8);
 }
 
 .calendrier-title{
@@ -330,9 +352,9 @@ img{
   }
 
   .main-title{
-    margin-top: 5rem;
-    margin-bottom: 2rem;
-    padding: 0 0;
+    font-family: var(--ff-main);
+    text-align: center
+    margin: auto;
   }
 
   .intro{
@@ -340,8 +362,13 @@ img{
   }
 
   .intro-title{
-    font-size: 1.25rem;
+    font-size: 2rem;
     line-height: 1.5em;
+    margin: 4.125rem 2rem;
+  }
+  .background2 .intro-title{
+    font-size: 1.5rem;
+    margin: auto;
   }
 
   .split{
@@ -361,7 +388,7 @@ img{
   }
 
   .calendrier{
-    padding: auto auto 2rem auto;
+    margin: 2rem auto;
   }
 
   .calendrier .split{
@@ -393,6 +420,10 @@ img{
 
   .faq{
     margin: 0 10rem 5rem 10rem;
+  }
+
+  .background1{
+    margin-top: 15vh;
   }
 
   h1{

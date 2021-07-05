@@ -90,7 +90,7 @@ menu a {
     menu {
         position: absolute;
         display: unset;
-        top:0px;
+        top:20px;
         right: 0px;
         margin:0px;
         width: 100%;
@@ -109,7 +109,8 @@ menu a {
         margin-top: 0;
         border: unset;
         color: var(--menu-color);
-
+        display: flex;
+        flex-direction: row;
     }
 
     menu a {
@@ -125,6 +126,7 @@ menu a {
         height: 100%;
         margin: auto;
         align-items: center;
+        padding: 0px;
     }
 
     menu>ul>li:hover {
