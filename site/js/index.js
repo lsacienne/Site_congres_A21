@@ -10,7 +10,7 @@ if(window.innerWidth > 750){
 
 // On a une focntion pour détecter un changement de taille et changer le logo en conséquence.
 function redimensionnement() {
-    
+
     if("matchMedia" in window) { // Détection
         if(window.matchMedia("(min-width:750px)").matches) {
             logo_congres[0].innerHTML = '<img src="images/Congres_indus_UTBM2.png" alt="Image de programmation"></img>'
@@ -50,4 +50,3 @@ $(function(){
     $(window).on('resize',redimensionnement);
     window.addEventListener('load', AOS.refresh);
 })
-
