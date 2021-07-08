@@ -263,6 +263,13 @@ img{
   border-radius: 20px;
   box-shadow: 3px 5px 0 rgba(189,189,189,0.8);
   margin: 0 2vw;
+  background-color: white;
+}
+
+.day-page-background .calendrier-box{
+  box-shadow: none;
+  margin: 20vh auto 0 auto;
+  width: 90%;
 }
 
 .calendrier-title{
@@ -277,26 +284,69 @@ img{
   flex-direction: row;
 }
 
+.day-page-background{
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.day-page{
+  margin: 20% auto;
+  width: 80%;
+  background-color: white;
+}
+
+.close-day-page{
+  float: right;
+  cursor: pointer;
+  font-size: 2.5rem;
+  padding-right: .25em;
+}
+
+.date{
+  font-size: 1.25rem;
+  padding: .25em;
+}
+
 .event-block{
   width: 100%;
   height: auto;
   flex-grow: 1;
   margin: auto;
   padding: 0.75em 0;
-/*  border-top:solid var(--calendrier-box);*/
   cursor: pointer;
 }
 
-/*.event-block + .event-block{
-  border-left: solid var(--calendrier-box);
-}*/
+.event-block2{
+  width: 100%;
+  height: auto;
+  flex-grow: 1;
+  margin: auto;
+  cursor: pointer;
+  border-top: solid #BDBDBD;
+}
 
-.event-block:hover{
+.event-block2 + .event-block2{
+  border-left: solid #BDBDBD;
+}
+
+.event-block2 .hour-text{
+  text-align: left;
+}
+
+
+.event-block:hover, .event-block2:hover{
   color: white;
   background-color: rgba(71,66,180,.7);
 }
 
-.event-block:active  {
+.event-block:active, .event-block2:active  {
   color: black;
   background-color: #4742b4;
 }
@@ -342,15 +392,6 @@ img{
   flex-direction: row;
 }
 
-/*.upper-block, .lower-block{
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-}*/
-
-.upper-block + .lower-block{
-  border-left:solid var(--calendrier-box);
-}
 
 .hour-text{
   margin-bottom: 0.5rem;
@@ -450,13 +491,6 @@ img{
     flex-basis: 100%;
   }
 
-  .upper-block, .lower-block{
-    flex-direction: row;
-  }
-
-  .upper-block + .lower-block{
-    border: none;
-  }
 
   .calendrier{
     margin: 2rem auto;
@@ -465,6 +499,11 @@ img{
   .calendrier-box{
     box-shadow: 15px 20px 0 rgba(189,189,189,0.8);
     margin: 0 15vw;
+  }
+
+  .day-page-background .calendrier-box{
+    width: 70%;
+    margin: 10% auto;
   }
 
   .calendrier-title{
@@ -479,6 +518,11 @@ img{
 
   .month{
     font-size: 1.5rem;
+  }
+
+  .date{
+    font-size: 1.75rem;
+    padding: .25em;
   }
 
   .event-block{
