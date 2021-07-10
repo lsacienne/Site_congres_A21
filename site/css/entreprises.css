@@ -16,11 +16,18 @@
     src: local('betterfly'), url('https://fonts.cdnfonts.com/s/40229/Betterfly-z4x1.woff') format('woff');
 }
 
+@font-face{
+    font-family:"techna-sans-regular";
+    src:url("https://dafonttop.com/wp-data/t/912/11912/file/TechnaSansRegular-6q1g.otf") format("woff"),
+    url("https://dafonttop.com/wp-data/t/912/11912/file/TechnaSansRegular-6q1g.otf") format("opentype"),
+    url("https://dafonttop.com/wp-data/t/912/11912/file/TechnaSansRegular-6q1g.otf") format("truetype");
+}
+
 :root{
   --text-color: 'Anton', sans-serif;
   --ff-intro: 'Crimson Text', serif;
   --ff-title: 'Fjalla One', sans-serif;
-  --ff-main: 'betterfly', sans-serif;
+  --ff-main: 'techna-sans-regular', sans-serif;
   --light-color: blanchedalmond;
   --menu-color: #4742b4;
   --hover-color: #ffd248;
@@ -130,7 +137,7 @@ img{
   font-size: 1.25rem;
   line-height: 1.5rem;
   text-align: center;
-  padding: 1em;
+  padding: 2em;
 }
 
 .background2 .intro-title{
@@ -156,12 +163,9 @@ img{
 
 .background1{
   color: white;
-  padding:13vh 0;
-
-
-  background-color: #333;
-  /*background-image: url(../images/logo.png);*/
-  background-image: url(https://source.unsplash.com/random);
+  padding: 10vh 0;
+  background-color: #606060;
+  background-image: url(../images/main.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: multiply;
@@ -204,8 +208,7 @@ img{
 
 .day,
 .greyed-day,
-.crossed-day,
-.circled-day {
+.crossed-day{
   font-size: 1.125rem;
   width: 100%;
   position: relative;
@@ -234,7 +237,7 @@ img{
   color: #CECECE;
 }
 
-.circled-day{
+[id = "28"] {
   color: red;
 }
 
@@ -256,6 +259,10 @@ img{
   background: #4742b4;
   border-top-left-radius: 18px;
   border-top-right-radius: 18px;
+}
+
+#day-page-top{
+  padding-top: 10vh;
 }
 
 .calendrier-box{
@@ -314,6 +321,11 @@ img{
   padding: .25em;
 }
 
+.activity-text{
+  margin: .5rem;
+  text-align: justify;
+}
+
 .event-block{
   width: 100%;
   height: auto;
@@ -325,10 +337,9 @@ img{
 
 .event-block2{
   width: 100%;
-  height: auto;
+  height: 20vh;
   flex-grow: 1;
   margin: auto;
-  cursor: pointer;
   border-top: solid #BDBDBD;
 }
 
@@ -341,12 +352,12 @@ img{
 }
 
 
-.event-block:hover, .event-block2:hover{
+.event-block:hover{
   color: white;
   background-color: rgba(71,66,180,.7);
 }
 
-.event-block:active, .event-block2:active  {
+.event-block:active {
   color: black;
   background-color: #4742b4;
 }
@@ -387,7 +398,6 @@ img{
 }
 
 .line{
-  width: 100%;
   display: flex;
   flex-direction: row;
 }
@@ -510,7 +520,7 @@ img{
     font-size: 2.0rem;
   }
 
-  .day, .greyed-day, .crossed-day, .circled-day{
+  .day, .greyed-day, .crossed-day {
     font-size: 1.5rem;
   }
 

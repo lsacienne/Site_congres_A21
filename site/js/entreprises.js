@@ -11,20 +11,31 @@ window.addEventListener('load', AOS.refresh);
 
 /* On gère les intéractions avec le calendrier */
 let cases = $('.event-block > .day');
-let overlay = $('.day-page-background');
 let close = $('.close-day-page');
+var id;
+
+cases.on('click',function(e){
+    //Getting the id(=day)
+    id = this.id;
+
+    //Setting the correct informations
+    $('.calendrier-top > h3').text(id + ' Octobre 2021');
 
 
-cases.on('click',function(){
-  overlay.css('display','block');
-  $('html').css('overflow','hidden');
+
+
+    //Dislaying page
+    $('.day-page-background').css('display','block');
+    $('html').css('overflow-y','hidden');
 });
 
 
 close.on('click',function(){
-  overlay.css('display','none');
-  $('html').css('overflow','scroll');
+  //Closing page
+  $('.day-page-background').css('display','none');
+  $('html').css('overflow-y','scroll');
 });
+
 
 
 })
