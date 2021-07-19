@@ -1,19 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
-@import url('https://db.onlinewebfonts.com/c/273d109a90780d8fe7bbe69817a67397?family=betterfly');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
 :root{
-  --text-color: 'Anton', sans-serif;
-  --ff-main: 'BetterFly', sans-serif;
-  --ff-title: 'Fjalla One', sans-serif;
-  /*--menu-color: blanchedalmond;*/
-  --menu-color: #4742b4;
-  --hover-color: #ffd248;
+  --ff-main: 'Open Sans', sans-serif;
+  --blue-logo: #4742b4;
+  --yellow-logo: #ffd248;
+  --first-grey: #E6E7E8;
+  --second-grey: #BDBDBD;
+  --download-color: #764981;
+}
+
+*{
+  font-family: var(--ff-main);
+  margin: 0; padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+  box-sizing: border-box;
+  line-height: 1.5rem;
 }
 
 html{
-  box-sizing: border-box;
-  color: var(--text-color);
   overflow-x: hidden;
 }
 
@@ -26,6 +34,19 @@ body{
     width: 100%;
     height: 100%;
     overflow-x: hidden;
+}
+
+.cursor{
+  display: none;
+  position: absolute;
+  top: 0; left: 0;
+  height: 3rem; width: 3rem;
+  background: var(--blue-logo);
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: .5;
+  z-index: 10000;
+  transform: translate(-50%,-50%);
 }
 
 .data-image img {
@@ -164,6 +185,10 @@ main {
 
 @media (min-width: 750px) {
 
+    .cursor{
+      display: unset;
+    }
+
     /* Contenu du header */
     .main-content {
         display: flex;
@@ -196,7 +221,7 @@ main {
         margin: 10px;
         justify-content: center;
         align-items: center;
-        text-align: center;    
+        text-align: center;
     }
 
 

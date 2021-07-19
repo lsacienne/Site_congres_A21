@@ -21,9 +21,6 @@ cases.on('click',function(e){
     //Setting the correct informations
     $('.calendrier-top > h3').text(id + ' Octobre 2021');
 
-
-
-
     //Dislaying page
     $('.day-page-background').css('display','block');
     $('html').css('overflow-y','hidden');

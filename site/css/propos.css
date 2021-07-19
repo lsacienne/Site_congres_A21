@@ -1,19 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
-@import url('https://db.onlinewebfonts.com/c/273d109a90780d8fe7bbe69817a67397?family=betterfly');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
 :root{
-  --text-color: 'Anton', sans-serif;
-  --ff-main: 'BetterFly', sans-serif;
-  --ff-title: 'Fjalla One', sans-serif;
-  /*--menu-color: blanchedalmond;*/
-  --menu-color: #4742b4;
-  --hover-color: #ffd248;
+  --ff-main: 'Open Sans', sans-serif;
+  --blue-logo: #4742b4;
+  --yellow-logo: #ffd248;
+  --first-grey: #E6E7E8;
+  --second-grey: #BDBDBD;
+  --download-color: #764981;
+}
+
+*{
+  font-family: var(--ff-main);
+  margin: 0; padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+  box-sizing: border-box;
+  line-height: 1.5rem;
 }
 
 html{
-  box-sizing: border-box;
-  color: var(--text-color);
+  overflow-x: hidden;
 }
 
 body{
@@ -40,6 +49,19 @@ img {
     max-width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+.cursor{
+  display: none;
+  position: absolute;
+  top: 0; left: 0;
+  height: 3rem; width: 3rem;
+  background: var(--yellow-logo);
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: .5;
+  z-index: 10000;
+  transform: translate(-50%,-50%);
 }
 
 .ligne{
@@ -86,23 +108,35 @@ img {
 
 
 /* Medias querries : Utilisées pour le contenu sur un écran de pc */
-@media (min-width: 850px) {
+@media (min-width: 750px) {
+  .cursor{
+    display: unset;
+  }
+
   .logo{
     display:inline-block;
     width: 190px;
     height : auto;
     margin: 10px 30px 10px 30px;
+  }
 
+  nav ul{
+    color: var(--yellow-logo);
+  }
+
+  nav>ul>li:hover {
+      background-color: var(--blue-logo);
+      color: var(--yellow-logo);
   }
 }
 
-@media (max-width: 750px) {
+/*@media (max-width: 750px) {
   .logo{
     display:inline-block;
     width: 90px;
     height : auto;
     margin: 10px 30px 10px 30px;
 
-  }
+  }*/
 
 }

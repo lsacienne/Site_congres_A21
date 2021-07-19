@@ -20,9 +20,8 @@ symbol_menu.addEventListener('click',updateClicks);
 */
 
 /* Premier essai sur jQuerry */
-let symbol_menu = $('.titre-menu');
-let menu = $('menu-container');
-let content_menu = $('menu');
+let symbol_menu = $('#menu-bars');
+let content_menu = $('nav');
 
 symbol_menu.on('click',function() {
     content_menu.slideToggle();
@@ -35,3 +34,11 @@ $(window).on('resize',function(){
         content_menu.css('display','none');
     }
 });
+
+/* Mouvement curseur */
+let cursor = document.querySelector('.cursor');
+
+window.onmousemove = (e) =>{
+  cursor.style.top = e.pageY + 'px';
+  cursor.style.left = e.pageX + 'px';
+}
