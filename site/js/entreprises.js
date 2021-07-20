@@ -34,5 +34,20 @@ close.on('click',function(){
 });
 
 
+/* Intéraction FAQ */
+let question_container = $('.faq-container .question-container');
+let answer = $('.faq-container .question-container i p');
+
+question_container.on('click', function(){
+  let id = this.id;
+  $('#' + id + ' i p').css('display','unset');
+});
+
+question_container.mouseleave(function() {
+  let id = this.id;
+  $('#' + id + ' i p').css('display','none');
+});
+
+
 
 })
