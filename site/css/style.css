@@ -36,6 +36,32 @@ body{
     overflow-x: hidden;
 }
 
+footer{
+  margin: auto;
+  color:rgb(56, 53, 53);
+  text-align: center;
+  background-color: var(--yellow-logo);
+  padding: 1.5rem;
+}
+
+footer h3 {
+    font-size: 175%;
+}
+
+footer hr {
+    width: 20%;
+    color:rgb(184, 179, 179);
+    margin: .5rem auto;
+}
+
+footer p{
+  text-transform: none;
+}
+
+.footer-text{
+  font-weight: bold;
+}
+
 .cursor{
   display: none;
   position: absolute;

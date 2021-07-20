@@ -9,6 +9,7 @@
   --third-grey: #CECECE;
   --download-color: #764981;
   --text-color: #333;
+  --background-color: #BABAC3;
 }
 
 *{
@@ -25,7 +26,7 @@
 html{
   overflow-x: hidden;
   scroll-behavior: smooth;
-  background: #BABAC3;
+  background: var(--background-color);
 }
 
 h1{
@@ -188,6 +189,33 @@ footer p{
 .background2 .split .image{
   flex: 1 1 20rem;
 }
+
+/*.background2 .keys-container{
+  flex: 1 1 15rem;
+  padding: .5rem;
+}
+
+.background2 .global-keys-container{
+  flex: 1 1 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.background2 .keys-container .key{
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 50%;
+  background: var(--blue-logo);
+  text-align: center;
+  margin: auto;
+}
+
+.background2 .keys-container .key p{
+  font-size: .7rem;
+}*/
+
+
 
 .background2 .image img{
   width: 100%;
@@ -451,13 +479,14 @@ footer p{
   gap: 1.5rem;
 }
 
-.question-container{
+.faq-container .question-container{
   flex: 1 1 20rem;
   padding: 2rem;
   border-radius: .5rem;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
   background: lightgrey;
   cursor: pointer;
+
 }
 
 .faq-container .question-container:hover strong p {
