@@ -19,6 +19,7 @@ nav {
     position: fixed;
     top: 3.4rem;
     right: .5rem;
+    z-index: 1000;
 }
 
 nav ul {

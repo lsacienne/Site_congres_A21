@@ -12,11 +12,7 @@
 *{
   font-family: var(--ff-main);
   margin: 0; padding: 0;
-  outline: none;
-  border: none;
   text-decoration: none;
-  text-transform: capitalize;
-  transition: all .2s linear;
   box-sizing: border-box;
   line-height: 1.5rem;
 }
@@ -49,7 +45,7 @@ footer h3 {
 }
 
 footer hr {
-    width: 20%;
+    width: 15rem;
     color:rgb(184, 179, 179);
     margin: .5rem auto;
 }
@@ -58,7 +54,10 @@ footer p{
   text-transform: none;
 }
 
-.footer-text{
+footer a{
+  color: var(--text-color);
+  text-transform: none;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -73,6 +72,7 @@ footer p{
   opacity: .5;
   z-index: 10000;
   transform: translate(-50%,-50%);
+  transition: all .2s linear;
 }
 
 .data-image img {
