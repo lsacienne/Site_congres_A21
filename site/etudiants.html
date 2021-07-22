@@ -24,6 +24,8 @@
   <!-- font cdn -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
+  <script src="js/etudiants.js" defer></script>
+
   <title>Etudiants</title>
 </head>
 <body>
@@ -46,12 +48,343 @@
   <script src="js/menu.js"></script>
 
 
-  <main>
+<main>
+
+<!-- Top page background -->
+<section class="top-background" >
+    <h1 class="main-title"> Espace <span>étudiants</span> </h1>
+</section>
 
 
 
+<!-- Section phrases d'accroches -->
+<section class="accroches">
+  <div class="content">
+    <div class="text" data-aos="fade-up">
+        <h2 class="highlight">Le Congrès Industriel 2021</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi sint sed, ut hic accusantium temporibus tempore magnam corporis tempora ab saepe aliquam quos ipsa animi eum id ex amet, itaque nihil. Praesentium odio adipisci eligendi ipsam quia eos dolores a aliquam assumenda qui nihil quas aliquid, amet debitis molestiae necessitatibus.</p>
+    </div>
+    <a class="button" target="_blank" href="docs/congres_industriel_utbm_2021_plaquette_de_presentation_V2.pdf" download="Congrès_2021_plaquette">Télécharger la plaquette</a>
+  </div>
+  <div class="image">
+    <img src="images/logo.png" alt="">
+  </div>
+  </section>
 
-  </main>
+
+
+</section>
+
+
+
+<!-- Calendrier -->
+<section class="calendrier">
+    <!-- Calendrier visible par défaut-->
+    <div class="calendrier-box" data-aos="fade-right">
+      <header class="calendrier-top">
+        <h2 class="calendrier-title">
+          Calendrier événementiel
+        </h2>
+        <div class="split">
+            <h3 class="day">LUN</h3>
+            <h3 class="day">MAR</h3>
+            <h3 class="day">MER</h3>
+            <h3 class="day">JEU</h3>
+            <h3 class="day">VEN</h3>
+            <h3 class="day">SAM</h3>
+            <h3 class="day">DIM</h3>
+        </div>
+      </header>
+        <h3 class="month">Octobre</h3>
+        <div class="split-days">
+          <div class="line">
+            <div class="event-block">
+              <h3 class="greyed-day">27</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="greyed-day">28</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="greyed-day">29</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="greyed-day">30</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="crossed-day">1</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="crossed-day">2</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="crossed-day">3</h3>
+            </div>
+          </div>
+
+          <div class="line">
+            <div class="event-block">
+              <h3 class="crossed-day">4</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="crossed-day">5</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="crossed-day">6</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="crossed-day">7</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="crossed-day">8</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="crossed-day">9</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="crossed-day">10</h3>
+            </div>
+          </div>
+
+          <div class="line">
+            <div class="event-block">
+              <h3 class="crossed-day">11</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="crossed-day">12</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="crossed-day">13</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="crossed-day">14</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="crossed-day">15</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="crossed-day">16</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="crossed-day">17</h3>
+            </div>
+          </div>
+
+          <div class="line">
+            <div class="event-block">
+              <h3 class="day" id='18'>18</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="day" id='19'>19</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="day" id='20'>20</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="day" id='21'>21</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="day" id='22'>22</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="day" id='23'>23</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="day" id='24'>24</h3>
+            </div>
+          </div>
+
+          <div class="line">
+            <div class="event-block">
+              <h3 class="day" id='25'>25</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="day" id='26'>26</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="day" id='27'>27</h3>
+            </div>
+            <div class="event-block">
+                <h3 class="day" id='28'>28</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="day" id='29'>29</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="day" id='30'>30</h3>
+            </div>
+            <div class="event-block">
+              <h3 class="day" id='31'>31</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Affichage des jours en détail -->
+      <div class="day-page-background">
+          <div class="calendrier-box">
+            <div class="close-day-page">&times;</div>
+            <header class="calendrier-top" id="day-page-top">
+                <h3 class="date">18 Octobre 2021</h3>
+            </header>
+            <div class="split-days">
+              <div class="line">
+              <div class="event-block2">
+                <div>
+                  <p class="hour-text">12h00</p>
+                </div>
+                <div class="activity-text">
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+
+              <div class="event-block2">
+                <div>
+                  <p class="hour-text">12h00</p>
+              </div>
+              <div class="activity-text">
+                  <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <div class="event-block2">
+              <div>
+                <p class="hour-text">12h00</p>
+              </div>
+              <div class="activity-text">
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+           </div>
+          </div>
+
+            <div class="line">
+            <div class="event-block2">
+              <div>
+                <p class="hour-text">12h00</p>
+            </div>
+            <div class="activity-text">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+
+            <div class="event-block2">
+              <div>
+                <p class="hour-text">12h00</p>
+            </div>
+            <div class="activity-text">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+
+          <div class="event-block2">
+            <div>
+              <p class="hour-text">12h00</p>
+            </div>
+            <div class="activity-text">
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+<!-- Section to-do list -->
+<section class="todo">
+
+  <div class="row">
+    <i class="fas fa-check-square"> <span> Lorem ipsum dolor sit amet, consectetur. </span></i>
+  </div>
+
+  <div class="row">
+    <i class="fas fa-check-square"> <span> Lorem ipsum dolor sit amet, consectetur. </span></i>
+  </div>
+
+  <div class="row">
+    <i class="fas fa-check-square"> <span> Lorem ipsum dolor sit amet, consectetur. </span></i>
+  </div>
+
+  <div class="row">
+    <i class="fas fa-check-square"><span> Lorem ipsum dolor sit amet, consectetur. </span></i>
+  </div>
+
+</section>
+
+
+
+<!-- Section FAQ -->
+<section class="faq">
+
+  <header>
+    <h2>
+      FAQ
+    </h2>
+  </header>
+
+  <div class="faq-container">
+
+    <div class="question-container" id="q1">
+      <strong><p>Je suis une question</p></strong>
+      <i><p>Je suis une réponse</p></i>
+    </div>
+
+    <div class="question-container" id="q2">
+      <strong><p> Je suis une question</p></strong>
+      <i><p>Je suis une réponse</p></i>
+    </div>
+
+    <div class="question-container" id="q3">
+      <strong><p>Je suis une question</p></strong>
+      <i><p>Je suis une réponse</p></i>
+    </div>
+
+    <div class="question-container" id="q4">
+      <strong><p> Je suis une question</p></strong>
+      <i><p>Je suis une réponse</p></i>
+    </div>
+
+    <div class="question-container" id="q5">
+      <strong><p>Je suis une question</p></strong>
+      <i><p>Je suis une réponse</p></i>
+    </div>
+
+    <div class="question-container" id="q6">
+      <strong><p>Je suis une question</p></strong>
+      <i><p>Je suis une réponse</p></i>
+    </div>
+
+    <div class="question-container" id="q7">
+      <strong><p>Je suis une question</p></strong>
+      <i><p>Je suis une réponse</p></i>
+    </div>
+
+    <div class="question-container" id="q8">
+      <strong><p>Je suis une question</p></strong>
+      <i><p>Je suis une réponse</p></i>
+    </div>
+
+</div>
+</section>
+
+
+</main>
+
+
+
+<footer>
+    <address>
+        <h3>Nous contacter</h3>
+        <hr>
+        <a href="mailto:congres.industriel@utbm.fr" class="fas fa-envelope"> Nous envoyer un E-mail</a>
+        <p>&copy; AE UTBM. Tous droits réservés.</p>
+  </address>
+</footer>
+
+
+
 
 </body>
 </html>

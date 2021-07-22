@@ -62,10 +62,6 @@ footer a{
   font-weight: bold;
 }
 
-.footer-text{
-  font-weight: bold;
-  text-transform: none;
-}
 
 .button{
   display: inline-block;
@@ -416,11 +412,11 @@ footer a{
   height: 20vh;
   flex-grow: 1;
   margin: auto;
-  border-top: solid #BDBDBD;
+  border-top: solid var(--second-grey);
 }
 
 .event-block2 + .event-block2{
-  border-left: solid #BDBDBD;
+  border-left: solid var(--second-grey);
 }
 
 .event-block2 .hour-text{
@@ -435,7 +431,7 @@ footer a{
 
 .event-block:active {
   color: black;
-  background-color: #4742b4;
+  background-color: var(--blue-logo);
 }
 
 .event-bottom-left:hover {
@@ -469,6 +465,11 @@ footer a{
   margin-left: .5rem;
 }
 
+
+.faq{
+  margin-bottom: 3rem;
+}
+
 .faq header h2{
   text-align: center;
   margin: 1rem 0;
@@ -480,7 +481,6 @@ footer a{
   /*background-color: lightgrey;*/
   width: 90%;
   margin: auto;
-  margin-bottom: 3rem;
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
