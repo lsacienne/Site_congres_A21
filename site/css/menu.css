@@ -33,6 +33,7 @@ nav ul {
 
 nav>ul>li{
   padding: .5rem;
+  text-transform: capitalize;
 }
 
 nav>ul>li:hover {

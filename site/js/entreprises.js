@@ -26,6 +26,17 @@ cases.on('click',function(e){
     $('html').css('overflow-y','hidden');
 });
 
+let box = $('.calendrier-box');
+
+$('.day-page-background').on('click',function(e){
+
+  if(e.target == this){
+    $('.day-page-background').css('display','none');
+    $('html').css('overflow-y','scroll');
+  }
+
+});
+
 
 close.on('click',function(){
   //Closing page
