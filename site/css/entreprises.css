@@ -25,7 +25,7 @@
 html{
   overflow-x: hidden;
   scroll-behavior: smooth;
-  background: var(--background-color);
+  background: #eee;
 }
 
 h1{
@@ -91,9 +91,10 @@ footer a{
   top:0;
   left:0;
   position: absolute;
-  height: 100vh;
   width: 100%;
-  background-color: var(--yellow-logo);
+  height: 100%;
+  background: var(--third-grey);
+
 }
 
 .main-title,
@@ -104,7 +105,7 @@ footer a{
 
 .main-title{
   font-family: var(--ff-main);
-  color: black;
+  color: #111;
   text-align: center;
   margin: auto;
   margin-top: 6rem;
@@ -125,7 +126,7 @@ footer a{
 .intro .content{
   flex: 1 1 30rem;
   text-align: center;
-  background-color: var(--third-grey);
+  background-color: var(--background-color);
   padding: 1rem;
 }
 
@@ -182,9 +183,9 @@ footer a{
 }
 
 :root {
-  --marquee-width: 95vw;
+  --marquee-width: 100vw;
   --marquee-height: 15vh;
-  --marquee-elements-displayed: 5;
+  --marquee-elements-displayed: 4;
   --marquee-element-width: calc(var(--marquee-width) / var(--marquee-elements-displayed));
   --marquee-animation-duration: calc(var(--marquee-elements) * 3s);
 }
@@ -206,14 +207,17 @@ footer a{
   content: "";
   z-index: 1;
 }
+
 .marquee:before {
   left: 0;
   background: linear-gradient(to right, var(--blue-logo) 0%, transparent 100%);
 }
+
 .marquee:after {
   right: 0;
   background: linear-gradient(to left, var(--blue-logo) 0%, transparent 100%);
 }
+
 .marquee-content {
   list-style: none;
   height: 100%;
@@ -227,15 +231,16 @@ footer a{
 }
 .marquee-content li {
   display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
   flex-shrink: 0;
   width: var(--marquee-element-width);
   max-height: 100%;
-  font-size: 1rem;
+  font-size: 1.25rem;
   text-transform: none;
-  padding: 1rem;
 }
+
 
 @media (max-width: 600px) {
   html { font-size: 12px; }
@@ -591,9 +596,11 @@ footer a{
     display: unset;
   }
 
+  /*nav>ul>li{
+    color: var(--yellow-logo);
+  }*/
   nav>ul>li:hover {
-      background-color: var(--blue-logo);
-      color: var(--yellow-logo);
+      background-color: var(--yellow-logo);
   }
 
   .calendrier{

@@ -85,23 +85,14 @@ footer a{
 }
 
 /* Première section */
-.top-background{
-  padding-top: 15vh;
-}
-
 .main-title{
   font-family: var(--ff-main);
   color: #111;
   text-align: center;
   margin: auto;
+  margin-top: 6rem;
   text-transform: uppercase;
 }
-
-.main-title span{
-  text-transform: uppercase;
-  color: var(--yellow-logo);
-}
-
 
 
 /* Section phrases d'accroches */
@@ -110,14 +101,14 @@ footer a{
   flex-wrap: wrap;
   gap: 1.5rem;
   align-items: center;
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   padding: 2rem;
 }
 
 
 .accroches .content{
   flex: 1 1 30rem;
-  text-align: center;
+  text-align: justify;
 }
 
 .accroches .content .text{
@@ -133,6 +124,12 @@ footer a{
 
 .accroches .content .text p{
   text-transform: none;
+}
+
+.accroches .content .text p span{
+  display: block;
+  text-transform: none;
+  margin-top: 1rem;
 }
 
 
@@ -378,6 +375,13 @@ footer a{
   margin-top: 2rem;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
   border-radius: 1rem;
+}
+
+.todo h2{
+  text-transform: none;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 2rem;
 }
 
 .todo .row{
