@@ -85,7 +85,7 @@ footer a{
     max-width: 100%;
 }
 
-.image img {
+.image img, .carousel-slick img {
     display: block;
     min-width: 100%;
     max-height: 100%;
@@ -156,6 +156,17 @@ main {
     text-align: center;
 }
 
+.rubrique-carousel {
+    display: inline-block;
+    padding: 1vw;
+    width: 95%;
+    height: 40%;
+    margin:10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .disposition2 {
     flex-direction: column-reverse;
 }
@@ -190,7 +201,13 @@ main {
   flex-grow: 1;
 }
 
-.image {
+.rubrique-carousel .image, .rubrique-carousel .texte {
+    flex-grow: unset;
+}
+
+
+
+.image, .carousel-slick {
     padding: 10px;
     background: #716cc5;
 }
@@ -249,11 +266,26 @@ main {
         text-align: center;
     }
 
+    .rubrique-carousel {
+        display: inline-block;
+    }
+
 
     /* Trois datas (ou plus) données en début de page */
 
     .data {
         width: 15%;
+    }
+
+    .rubrique-carousel .image {
+        display: inline-block;
+        width: 40vw;
+    }
+
+    .rubrique-carousel .texte {
+        width: 50vw;
+
+        display: inline-block;
     }
     /* Contenu d'une rubrique dite "classique" */
     .image img {

@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/carousel.css">
+    
+    <!-- Bibliothèque slick (pour créer des carousels) -->
+    <link rel="stylesheet" type="text/css" href="js/slick-1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="js/slick-1.8.1/slick/slick-theme.css"/>
 
     <!-- Animations via une bibliothèque css et js : AOS (Animated On Scroll) -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -18,6 +22,10 @@
 
     <!-- Bibliothèque jQuerry -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <!-- Bibliothèque slick (pour créer des carousels) -->
+    <script type="text/javascript" src="js/slick-1.8.1/slick/slick.js" defer></script>
 
     <!-- font cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -175,23 +183,21 @@
             </div>
         </div>
 
-        <div class="rubrique2 disposition1">
+        <div class="rubrique-carousel">
             <div class="image" data-aos="fade-right">
-                <div class="carousel">
-                    <ul>
-                        <li><img src="https://source.unsplash.com/1280x720/?tree" alt="Image 1 rubrique 3"></li>
-                        <li><img src="https://source.unsplash.com/1280x720/?dog" alt="Image 2 rubrique 3"></li>
-                        <li><img src="https://source.unsplash.com/1280x720/?apple" alt="Image 3 rubrique 3"></li>
-                        <li><img src="https://source.unsplash.com/1280x720/?gameboy" alt="Image 4 rubrique 3"></li>
-                    </ul>
+                <div class="carousel-slick">
+                    <div><img src="https://source.unsplash.com/1280x720/?tree" alt="Image 1 rubrique 3"></div>
+                    <div><img src="https://source.unsplash.com/1280x720/?dog" alt="Image 2 rubrique 3"></div>
+                    <div><img src="https://source.unsplash.com/1280x720/?apple" alt="Image 3 rubrique 3"></div>
+                    <div><img src="https://source.unsplash.com/1280x720/?gameboy" alt="Image 4 rubrique 3"></div>
                 </div>
             </div>
-            <script src="js/carousel.js"></script>
             <div class="texte" data-aos="fade-left">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Similique provident obcaecati exercitationem veritatis enim consequatur earum dolorum? Beatae, assumenda dicta.</p>
             </div>
         </div>
+        <script src="js/carousel.js"></script>
     </main>
 
     <footer>

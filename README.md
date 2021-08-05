@@ -14,6 +14,7 @@ Ce site a été réalisé pour le congrès industriel de l'automne 2021. Il est 
 Pour notre projet, nous utilisons différentes bibliothèques CSS et JavaScript.
 - **jQuery** Bibliothèque simplifiant grandement l'apprentissage du JavaScript. Elle dispose notamment de fonction permettant de réaliser des fondues ou des slides. C'est un outil indispensable.
 - **AOS** (*Animation On Scroll*) Comme son nom l'indique, cette bibliothèque JS et CSS permet de réaliser des animations quand on scrolle sur une page : [la doc](https://michalsnik.github.io/aos/) [le github (un peu plus détaillé)](https://github.com/michalsnik/aos)
+- **Slick** Bibliothèque permettant d'obtenir des carousels. :warning: Cette bibliothèque exige de ne pas utiliser un container flex. Cela s'avère assez embêtant dans notre cas. [le site de la biblio (avec le lien du github)](http://kenwheeler.github.io/slick/).
 
 ## Sources :
 
