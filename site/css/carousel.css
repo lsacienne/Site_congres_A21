@@ -1,6 +1,13 @@
 .carousel {
     overflow: hidden;
     width: 90vw;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.carousel-container {
+    display: block;
 }
 
 .carousel ul {
@@ -12,6 +19,40 @@
 
 .carousel li {
     float: left;
+}
+
+/* Merci à LesDocs pour ce slider disponible à cette adresse : https://lesdocs.fr/slider-javascript/ ****/
+
+.image {
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.image #precedent,
+.image #suivant {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    width: 2em;
+    position: absolute;
+    font-size: 3em;
+    color: rgba(220, 220, 220, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+}
+
+.carousel #precedent {
+    left:inherit;
+}
+
+.carousel #suivant {
+    right: initial;
+}
+
+.image:hover #precedent,
+.image:hover #suivant {
+    opacity: 1;
 }
 
 @media (min-width: 750px) {
