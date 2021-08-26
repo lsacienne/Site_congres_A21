@@ -1,17 +1,3 @@
-$(document).ready(function(){
-    $('.carousel-slick').slick({
-        dots: true,
-        infinite: true,
-        speed: 500,
-        autoplay: true,
-        autoplaySpeed: 500,
-        fade: true,
-        cssEase: 'linear'
-    });
-});
-
-  
-/*
 let width_image = $('.image').width();
 
 $(function () {
@@ -25,4 +11,3 @@ $(function () {
 $(window).on('resize',function(){
     width_image = $('.image').width();
 });
-*/
