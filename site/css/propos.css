@@ -23,19 +23,88 @@
 html{
   overflow-x: hidden;
   scroll-behavior: smooth;
+  background-color: var(--background-color);
 }
 
 
 main {
-   /*border:solid blue;*/
-    max-width: 3840px;
-    align-items: center;
-    text-align: center;
+  /*border:solid blue;*/
+  max-width: 3840px;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  margin-top: unset;
+  margin-bottom: unset;
+}
+
+.template {
+  display: flexbox;
+  overflow-x: hidden;
+  border-radius: 2rem;
+  margin: auto;
+  height: 80vw;
+  width: 80vw;
+  text-align: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.template .image {
+  height: 70%;
+  position: relative;
+}
+
+.template .image img {
+  transition: all 200ms ease-in;
+  height: 100%;
+  background-color: var(--yellow-logo);
+  transform: scale(1);
+  z-index: -1;
+  position: relative;
+}
+
+.template:hover .image img{
+  transition: all 200ms ease-in;
+  transform: scale(1.1);
+  z-index: -1;
+  position: relative;
+}
+
+
+.template .decoration {
+  position: relative;
+  z-index: 1;
+  content:"salut salut";
+  top: 0;
+  margin-top: -70%;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background: var(--blue-logo);
+  background: linear-gradient(0deg, var(--blue-logo) 0%, rgba(255,255,255,0) 100%);
+}
+
+
+
+
+.template .nom_entreprise {
+  background-color: var(--blue-logo);
+  height: 30%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.template .nom_entreprise h2{
+  margin: auto;
+  font-size: 3rem;
+  color: var(--first-grey);
 }
 
 
 h1{
   font-size: 1.75rem;
+  color: var(--first-grey);
 }
 
 footer{
@@ -85,7 +154,16 @@ footer a{
   align-items: center;
   justify-content: center;
   margin: 5rem .5rem;
+  padding: 2rem;
+  background-color: var(--blue-logo);
+  color: var(--first-grey);
 }
+
+
+
+
+
+
 
 .main-content h1{
   line-height: 2rem;
@@ -93,7 +171,7 @@ footer a{
 }
 
 .main-content h3{
-  color: var(--text-color);
+  color: var(--second-grey);
 }
 
 .logo-container{
@@ -125,13 +203,18 @@ footer a{
 /* Medias querries : Utilisées pour le contenu sur un écran de pc */
 @media (min-width: 750px) {
 
-  html{
-  /*  font-size: 110%;*/
-  }
-
   .cursor{
     display: unset;
   }
+
+  .template {
+    height: 15vw;
+    width: 15vw;
+  }
+
+  .template .nom_entreprise h2{
+    font-size: 2rem;
+  }  
 
   .logo{
     display:inline-block;
@@ -162,5 +245,3 @@ footer a{
     margin: 10px 30px 10px 30px;
 
   }*/
-
-}

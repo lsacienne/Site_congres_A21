@@ -588,9 +588,6 @@ footer a{
 /*Medias querries : Utilisées pour le contenu sur un écran de pc */
 @media (min-width: 750px) {
 
-  html{
-  /*  font-size: 110%;*/
-  }
 
   .cursor{
     display: unset;
