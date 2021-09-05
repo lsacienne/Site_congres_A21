@@ -99,9 +99,6 @@ main {
   background: linear-gradient(0deg, var(--blue-logo) 0%, rgba(255,255,255,0) 100%);
 }
 
-
-
-
 .template .nom_entreprise {
   background-color: var(--blue-logo);
   overflow-y: hidden;

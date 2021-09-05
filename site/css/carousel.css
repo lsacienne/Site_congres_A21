@@ -34,7 +34,7 @@
     cursor: pointer;
     transition: opacity 0.3s ease;
     opacity: 0;
-    width: 2em;
+    width: 1em;
     position: absolute;
     font-size: 3em;
     color: rgba(220, 220, 220, 0.8);
@@ -44,10 +44,15 @@
 
 .carousel #precedent {
     left:inherit;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
 }
 
 .carousel #suivant {
     right: initial;
+    
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
 }
 
 .image:hover #precedent,
@@ -72,5 +77,10 @@
     
     .carousel li {
         float: left;
+    }
+
+    .image #precedent,
+    .image #suivant {
+        width: 2em;
     }
 }

@@ -87,6 +87,7 @@ footer a{
 }
 
 .image img {
+    border-radius: 0.5rem;
     display: block;
     min-width: 100%;
     max-height: 100%;
@@ -189,20 +190,50 @@ main {
 .image, .texte
 {
   flex-grow: 1;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
 
 .image {
+    border-radius: 1rem;
     padding: 10px;
     background: #716cc5;
 }
 
 .texte {
-    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
     text-align: justify;
     width: 90vw;
     background: #9C9CD0;
+    border-radius: 1rem;
     padding: 7px;
 }
+
+.underline {
+    /* border-top: solid 0.5rem; */
+    height: 0.5rem;
+    background-color: var(--yellow-logo);
+    border-color: var(--yellow-logo);
+    transform: translate3d(0,12rem,1);
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.texte h1 {
+    font-size: 1.8rem;
+    text-align: left;
+    align-items: left;
+    margin: auto;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 1px #000000;
+}
+
+.texte p {
+    margin: 1rem;
+}
+
+
 
 
 
