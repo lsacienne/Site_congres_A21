@@ -3,6 +3,7 @@
 :root{
   --ff-main: 'Open Sans', sans-serif;
   --blue-logo: #4742b4;
+  --blue-pop-up: #908eb6;
   --yellow-logo: #ffd248;
   --first-grey: #E6E7E8;
   --second-grey: #BDBDBD;
@@ -29,8 +30,21 @@ html{
 
 main {
   /*border:solid blue;*/
+  display: flex;
+  flex-direction: column;
   max-width: 3840px;
   margin: auto;
+  align-items: center;
+  text-align: center;
+  margin-top: unset;
+  margin-bottom: unset;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
   align-items: center;
   text-align: center;
   margin-top: unset;
@@ -42,6 +56,7 @@ main {
   overflow-x: hidden;
   border-radius: 2rem;
   margin: auto;
+  margin-bottom: 2rem;
   height: 80vw;
   width: 80vw;
   text-align: center;
@@ -89,6 +104,8 @@ main {
 
 .template .nom_entreprise {
   background-color: var(--blue-logo);
+  overflow-y: hidden;
+  overflow-x: hidden;
   height: 30%;
   display: flex;
   align-items: center;
@@ -99,6 +116,60 @@ main {
   margin: auto;
   font-size: 3rem;
   color: var(--first-grey);
+}
+
+/* Affichage pop-up */
+
+.template .resume-wrapper {
+  position: fixed;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.template .resume {
+
+  position: fixed;
+  background-color: var(--blue-pop-up);
+  top: 5vh;
+  left: 5vw;
+  z-index: 10;
+  height: 90vh;
+  width: 90vw;
+  border: solid black;
+  border-radius: 2rem;
+}
+
+.template .resume .bandeau {
+  width: 100%;
+  background-color: #FFFFFF;
+  border-radius: 2rem;
+  border-bottom: solid var(--blue-logo) 0.2rem;
+}
+
+.template .resume .bandeau img {
+  width: 90%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.template .resume h2 {
+  text-align: left;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.template .resume p {
+  text-align: justify;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+
 }
 
 
@@ -207,6 +278,10 @@ footer a{
     display: unset;
   }
 
+  .flex-wrapper {
+    flex-direction: row;
+  }
+
   .template {
     height: 15vw;
     width: 15vw;
@@ -215,6 +290,12 @@ footer a{
   .template .nom_entreprise h2{
     font-size: 2rem;
   }  
+
+  .template .resume {
+    left: 25vw;
+    height: 90vh;
+    width: 50vw;
+  }
 
   .logo{
     display:inline-block;
