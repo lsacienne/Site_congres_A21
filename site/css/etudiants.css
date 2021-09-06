@@ -151,6 +151,7 @@ footer a{
 
 .accroches a{
   font-size: 2rem;
+  color: blue;
 }
 
 .accroches a + a{
@@ -221,6 +222,11 @@ footer a{
 [id = "28"] {
   color: red;
 }
+
+[id = "25"], [id = "26"], [id = "27"] {
+  color: blue;
+}
+
 
 
 .month{
@@ -375,13 +381,67 @@ footer a{
 }
 
 
+
+/* Légende du calendrier */
+.legende-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  text-align: center;
+  border: .1rem solid #FFDD87;
+  padding: 1.25rem;
+  margin-top: 2rem;
+}
+
+.legende{
+  flex: 1 1 12rem;
+  position: relative;
+}
+
+.legende:before{
+  position: absolute;
+  content: '';
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 25%;
+  top: 0;
+  left: 10%;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  background: var(--yellow-logo);
+}
+
+/*[id = "l1"]:before{
+  background: red;
+}
+
+[id = "l2"]:before{
+  background: green;
+}
+
+[id = "l3"]:before{
+  background: orange;
+}
+
+[id = "l4"]:before{
+  background: brown;
+}
+
+[id = "l5"]:before{
+  background: purple;
+}
+
+[id = "l6"]:before{
+  background: yellow;
+}*/
+
+
+
 /* Section to-do list */
 .todo{
   padding: .5rem 0;
   background: white;
   width: 90%;
-  margin: auto;
-  margin-top: 2rem;
+  margin: 5rem auto;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
   border-radius: 1rem;
 }
