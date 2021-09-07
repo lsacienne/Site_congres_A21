@@ -340,7 +340,7 @@ footer a{
 .calendrier-box{
   border:solid var(--second-grey);
   border-radius: 20px;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,1);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.4);
   margin: 1.5rem;
   background-color: white;
 }
@@ -478,6 +478,7 @@ footer a{
 }
 
 .legende{
+  font-size: .9rem;
   flex: 1 1 12rem;
   position: relative;
 }
