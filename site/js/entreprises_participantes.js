@@ -28,6 +28,7 @@
  */
 
 $(document).ready(function() {
+    /* /!\ 5 entreprises par container */
     createTemplate("seekube",document.getElementById("container1"));
     setupJquery();
 });
