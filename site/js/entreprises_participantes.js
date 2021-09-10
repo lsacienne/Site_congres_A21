@@ -1,35 +1,17 @@
-// pure javascript
-
-
-/**
- * <div class="template">
-        <div class="image">
-          <img src="images/seekube.png" alt="Logo de Seekube">
-          <div class="decoration"></div>
-        </div>
-        <div class="nom_entreprise">
-          <h2>Seekube</h2>
-        </div>
-
-        <div class="resume-wrapper">
-          <div class="resume">
-            <div class="bandeau">
-              <img src="images/seekube.png" alt="Logo de Seekube">
-            </div>
-            <h2>Seekube</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas velit ullam numquam dolorum reiciendis amet voluptas consequatur consequuntur eligendi provident architecto modi ratione rerum quibusdam, ab et doloribus fugit facere!
-            </p>
-          </div>
-        </div>
-
-      </div>
- * 
- */
-
 $(document).ready(function() {
-    /* /!\ 5 entreprises par container */
-    createTemplate("seekube",document.getElementById("container1"));
+
+    /**
+     * 
+     * INSERER ICI LES ENTREPRISES
+     * 
+     * /!\ 5 entreprises par container (container1/container2/container3/container4/container5/container6/container7/container8/container9/container10)
+     * 
+     */
+    /* INSEREZ A PARTIR D'ICI */
+
+    createTemplate("seekube","container1");
+
+    /* INSEREZ JUSQU'A ICI */
     setupJquery();
 });
 
@@ -63,7 +45,9 @@ function setupJquery() {
     });
 }
 
-function createTemplate(nom_entreprise,parent){
+function createTemplate(nom_entreprise,nom_parent){
+
+    let parent = document.getElementById(nom_parent);
     let jsonObject;
 
     let fileName = "json/"+nom_entreprise.toLowerCase() +".json";
@@ -84,7 +68,7 @@ class Template {
         
 
         this.name = jsonObject[0].name;
-        this.logo = jsonObject[0].logo;
+        this.logo = "images/"+jsonObject[0].logo;
         this.textFile = "presentation_entreprises/"+jsonObject[0].content;
 
         this.handler = document.createElement("div");
