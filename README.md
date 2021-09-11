@@ -32,14 +32,10 @@ Ce système permet même à un néophyte de pouvoir changer les bases de donnée
     "content":"<nom_fichier_description>"
 }]
 ```
-5. Ajouter le template dans le fichier `entreprises_participantes.js`.
-```js
-    /* Aux lignes indiquées, remplir comme ceci */
-    createTemplate("<nom_entreprise_comme_ecrit_sur_le_fichier_json>","container<numero_du_container>");
-```
+
 En suivant ces étapes vous pourrez ajouter toutes les entreprises sur le site.
 
-> :warning: Pour la description au froamt txt, il faudra ajouter des balises html pour faire de la mise ne forme ( saut à la ligne avec `<br>`, liste avec `<ul>`  et `<li>`,etc.).
+> :warning: Pour la description au format txt, il faudra ajouter des balises html pour faire de la mise ne forme ( saut à la ligne avec `<br>`, liste avec `<ul>`  et `<li>`,etc.).
 
 ## Sources :
 

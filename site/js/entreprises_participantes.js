@@ -1,17 +1,34 @@
 $(document).ready(function() {
 
-    /**
-     * 
-     * INSERER ICI LES ENTREPRISES
-     * 
-     * /!\ 5 entreprises par container (container1/container2/container3/container4/container5/container6/container7/container8/container9/container10)
-     * 
-     */
-    /* INSEREZ A PARTIR D'ICI */
+    let httpRequest = new XMLHttpRequest(); // asynchronous request
+    httpRequest.open("GET", "json", true);
+    httpRequest.send();
+    httpRequest.addEventListener("readystatechange", function() {
+        if (this.readyState === this.DONE) {
+            // when the request has completed
+            let temp = document.createElement("div");
+            temp.innerHTML = this.response;
+            let files = [];
+            for(elem of temp.getElementsByClassName("name")) {
+                if(elem.innerHTML != ".."){
+                    files.push(elem.innerHTML);
+                }
+            }
+            let file_count = 0;
+            console.log(files);
+            
+            for(file of files) {
+                if(file_count % 5 == 0) {
+                    new Container(Math.floor(file_count/5)+1,document.querySelector("main"));
+                }
+                createTemplate(file,"container"+(Math.floor(file_count/5)+1).toString());
+                file_count++;
+            }
+            
+        }
+    });
 
-    createTemplate("seekube","container1");
-
-    /* INSEREZ JUSQU'A ICI */
+    //createTemplate("seekube","container1");
     setupJquery();
 });
 
@@ -23,18 +40,10 @@ function setupJquery() {
     template.on("click", function(){
         $(this).find(".resume-wrapper").stop().fadeTo("fast",1);
         //$(this).find(".resume-wrapper").css({ display: "unset"})
-        focusedTemplate = $(this)
-        console.log(focusedTemplate)
+        focusedTemplate = $(this);
+        console.log(focusedTemplate);
         
     })
-    /*
-    $(window).on("click",function(event) {
-        console.log($(this))
-        if(!$(event.target).closest(focusedTemplate).length) {
-            focusedTemplate.find(".resume-wrapper").css({ display: "none"});
-        }
-    });
-    */
 
     $(".resume-wrapper").on("click",function(event){
         event.stopPropagation();
@@ -45,12 +54,21 @@ function setupJquery() {
     });
 }
 
+class Container {
+    constructor(num_container,parent) {
+        this.cont = document.createElement("div");
+        this.cont.classList.add("flex-wrapper");
+        this.cont.id = "container" + num_container.toString();
+        parent.appendChild(this.cont);
+    }
+}
+
 function createTemplate(nom_entreprise,nom_parent){
 
     let parent = document.getElementById(nom_parent);
     let jsonObject;
 
-    let fileName = "json/"+nom_entreprise.toLowerCase() +".json";
+    let fileName = "json/"+nom_entreprise;
     let httpRequest = new XMLHttpRequest(); // asynchronous request
     httpRequest.open("GET", fileName, true);
     httpRequest.send();
@@ -128,7 +146,6 @@ class Template {
             if (this.readyState === this.DONE) {
                   // when the request has completed
                 txt = this.response;
-                console.log(txt);
                 texteResume.innerHTML = txt;
             }
         });
