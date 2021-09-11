@@ -243,7 +243,7 @@ footer a{
 
 
 @media (max-width: 600px) {
-  html { font-size: 12px; }
+
   :root {
     --marquee-width: 100vw;
     --marquee-height: 16vh;

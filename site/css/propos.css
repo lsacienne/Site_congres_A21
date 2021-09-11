@@ -54,13 +54,16 @@ main {
   display: flexbox;
   overflow-x: hidden;
   border-radius: 2rem;
+  border: solid;
+  border-width: 0.8rem;
+  border-color: var(--third-grey);
   margin: auto;
   margin-bottom: 2rem;
   height: 80vw;
   width: 80vw;
   text-align: center;
   align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px, rgba(0, 0, 0, 0.35) 0px 1px 15px inset;
 }
 
 .template .image {
@@ -290,6 +293,7 @@ footer a{
   .template {
     height: 15vw;
     width: 15vw;
+    border-width: 0.5rem;
   }
 
   .template .nom_entreprise h2{
