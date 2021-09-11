@@ -1,13 +1,19 @@
+var template_count = 0;
+
 $(document).ready(function() {
 
     let httpRequest = new XMLHttpRequest(); // asynchronous request
-    httpRequest.open("GET", "json", true);
-    httpRequest.send();
-    httpRequest.addEventListener("readystatechange", function() {
-        if (this.readyState === this.DONE) {
-            // when the request has completed
+    /*
+    CELA NE FONCTIONNE PAS
+
+    $.ajax({
+        //This will retrieve the contents of the folder if the folder is configured as 'browsable'
+        url: "/json",
+        success: function (data) {
+            // List all mp4 file names in the page
+            console.log(data);
             let temp = document.createElement("div");
-            temp.innerHTML = this.response;
+            temp.innerHTML = data;
             let files = [];
             for(elem of temp.getElementsByClassName("name")) {
                 if(elem.innerHTML != ".."){
@@ -24,11 +30,30 @@ $(document).ready(function() {
                 createTemplate(file,"container"+(Math.floor(file_count/5)+1).toString());
                 file_count++;
             }
-            
         }
     });
+    */
 
-    //createTemplate("seekube","container1");
+    /**
+     * 
+     * Inserez les entreprises ici
+     * 
+     */
+
+    createTemplate("seekube.json");
+    createTemplate("seekube.json");
+    createTemplate("seekube.json");
+    createTemplate("seekube.json");
+    createTemplate("seekube.json");
+    createTemplate("seekube.json");
+    createTemplate("seekube.json");
+    createTemplate("seekube.json");
+    createTemplate("seekube.json");
+    createTemplate("seekube.json");
+    createTemplate("seekube.json");
+    createTemplate("seekube.json");
+    createTemplate("seekube.json");
+    createTemplate("seekube.json");
     setupJquery();
 });
 
@@ -39,7 +64,6 @@ function setupJquery() {
 
     template.on("click", function(){
         $(this).find(".resume-wrapper").stop().fadeTo("fast",1);
-        //$(this).find(".resume-wrapper").css({ display: "unset"})
         focusedTemplate = $(this);
         console.log(focusedTemplate);
         
@@ -47,7 +71,7 @@ function setupJquery() {
 
     $(".resume-wrapper").on("click",function(event){
         event.stopPropagation();
-        focusedTemplate.find(".resume-wrapper").stop().fadeTo("solw",-0.5,function(){
+        focusedTemplate.find(".resume-wrapper").stop().fadeTo("slow",-0.5,function(){
             focusedTemplate.find(".resume-wrapper").css({ display: "none"});
         })
         
@@ -82,8 +106,13 @@ function createTemplate(nom_entreprise,nom_parent){
 }
 
 class Template {
-    constructor(jsonObject, parent) {
-        
+    constructor(jsonObject) {
+        console.log(template_count);
+        if(template_count % 5 == 0) {
+            new Container(Math.floor(template_count/5)+1,document.querySelector("main"));
+        }
+        let nom_parent = "container"+(Math.floor(template_count/5)+1).toString();
+        let parent = document.getElementById(nom_parent);
 
         this.name = jsonObject[0].name;
         this.logo = "images/"+jsonObject[0].logo;
@@ -157,7 +186,7 @@ class Template {
         this.handler.appendChild(this.resumeContainer);
 
         parent.appendChild(this.handler);
-        
+        template_count++;
         setupJquery();
     }
 }
