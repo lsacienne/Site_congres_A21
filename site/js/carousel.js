@@ -8,7 +8,7 @@ $(function () {
     setInterval(function(){
         if(!hasBeenClicked) {
             animateCarouselRightToLeft(width_image)
-        } 
+        }
     }, 3500);
 });
 
@@ -37,6 +37,7 @@ $(".carousel ul").on("mouseenter",function() {
 
 
 /* Functions */
+
 function setRightArrowPosition(imageWidth) {
     let left_arrow = $(".carousel #precedent");
     let right_arrow = $(".carousel #suivant");
@@ -55,5 +56,3 @@ function animateCarouselLeftToRight(width_image){
     $(".carousel ul").css({marginLeft: -width_image}).find("li:first").before($(".carousel ul").find("li:last"));
     $(".carousel ul").animate({ marginLeft: 0 }, 800);
 }
-
-

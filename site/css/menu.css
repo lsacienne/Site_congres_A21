@@ -1,5 +1,4 @@
 /* Menu flottant */
-
 #menu-bars {
     position: fixed;
     top:.5rem; right:.5rem;
@@ -34,6 +33,7 @@ nav ul {
 nav>ul>li{
   padding: .5rem;
   text-transform: capitalize;
+  transition: all .4s linear;
 }
 
 nav>ul>li:hover {

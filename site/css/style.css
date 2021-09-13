@@ -61,6 +61,10 @@ footer a{
   padding: 0 .75rem;
 }
 
+.carousel, .carousel-container{
+  transition: noen;
+}
+
 .cursor{
   display: none;
   position: absolute;

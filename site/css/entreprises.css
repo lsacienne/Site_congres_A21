@@ -16,7 +16,6 @@
   margin: 0; padding: 0;
   text-decoration: none;
   text-transform: capitalize;
-  transition: all .2s linear;
   box-sizing: border-box;
   line-height: 1.5rem;
 }
@@ -250,7 +249,7 @@ footer a{
 
 
 @media (max-width: 600px) {
-  html { font-size: 12px; }
+
   :root {
     --marquee-width: 100vw;
     --marquee-height: 16vh;
@@ -315,6 +314,9 @@ footer a{
   color: red;
 }
 
+[id = "25"], [id = "26"], [id = "27"] {
+  color: blue;
+}
 
 .month{
   padding: .75em;
@@ -343,7 +345,7 @@ footer a{
 .calendrier-box{
   border:solid var(--second-grey);
   border-radius: 20px;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,1);
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.4);
   margin: 1.5rem;
   background-color: white;
 }
@@ -469,9 +471,58 @@ footer a{
 }
 
 
+/* Légende du calendrier */
+.legende-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  text-align: center;
+  border: .1rem solid #BBB;
+  padding: 1.25rem;
+  margin-top: 2rem;
+}
 
+.legende{
+  font-size: .9rem;
+  flex: 1 1 12rem;
+  position: relative;
+}
 
+.legende:before{
+  position: absolute;
+  content: '';
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 25%;
+  top: 0;
+  left: 10%;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  background: var(--blue-logo);
+}
 
+/*[id = "l1"]:before{
+  background: red;
+}
+
+[id = "l2"]:before{
+  background: green;
+}
+
+[id = "l3"]:before{
+  background: orange;
+}
+
+[id = "l4"]:before{
+  background: brown;
+}
+
+[id = "l5"]:before{
+  background: purple;
+}
+
+[id = "l6"]:before{
+  background: yellow;
+}*/
 
 /* Chiffres clés */
 .background2{
