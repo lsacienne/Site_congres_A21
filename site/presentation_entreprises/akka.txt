@@ -1,0 +1,15 @@
+<h3>A propos de l'entreprise</h3><br>
+
+As a global leader in engineering consulting and R&D services, AKKA supports the world's leading industry players in their digital transformation and throughout their entire product life cycle. 
+
+ 
+We accelerate innovation and business for the digital industrial world. 
+<br><br>
+<h3>Nos petits plus</h3><br>
+<ul>
+
+<li>Grand groupe mondial</li>
+
+<li>Management local</li>
+
+<li>Équipes soudées à fort potentiel</li>

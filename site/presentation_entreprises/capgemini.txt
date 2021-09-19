@@ -1,0 +1,19 @@
+<h3>A propos de l'entreprise</h3><br> 
+
+Le groupe Capgemini est un leader mondial du conseil, de la transformation numérique, des services technologiques et d’ingénierie.  <br>
+
+Son offre de services s’appuie sur quatre grandes marques (Capgemini, Capgemini Invent, Capgemini Engineering, Sogeti) ; un positionnement unique sur le marché qui permet à nos clients de bénéficier d’une suite complète de solutions combinant le cloud, le digital et les plateformes. <br> <br>
+
+  
+
+<h3>Nos petits plus </h3><br>
+<ul>
+<li>Du challenge quotidien avec des missions multi-secteurs, multi-technologies et à forte responsabilité dans un contexte multiculturel (à toi les calls entre New Dehli, Lyon et Chicago).  </li>
+
+<li>Un accès à des conférences (startups, éditeurs, experts), des formations et à une large librairie de contenus (Coursera, Pluralsight…). </li>
+
+<li>La possibilité de s’investir au travers de nombreux clubs (tech, sport, musique…) ou auprès de nos partenaires associatifs (Ellesbougent, Article 1, Ashoka, Surfrider…)  </li>
+
+<li>Des outils collaboratifs et nomades ainsi que de nombreux espaces de co-design, d’idéation et de détente. </li>
+
+<li>Une rémunération attractive (participation, intéressement, mutuelle, titres restaurant) et un accès au CE (cinéma, ski, voyages …) </li>

@@ -1,0 +1,15 @@
+<h3>A propos de l'entreprise </h3><br>
+
+Le Groupe STANLEY BLACK & DECKER est un groupe international, présent dans 75 pays avec plus de 50 000 salariés, leader dans la fabrication d’outillages à main destinés à différents marchés (industrie, secteur automobile, construction, grandes surfaces de bricolage). <br> 
+
+Reconnu pour la qualité de ses produits et son savoir-faire, le groupe STANLEY BLACK & DECKER inscrit toutes ses démarches de développement dans une dynamique de qualité et de progrès permanente relayée par l’ensemble de ses sites industriels.  <br><br>
+
+<h3>Nos petits plus </h3><br>
+<ul>
+<li>Esprit d'équipe / Entraide  
+
+<li>Qualité des produits / Satisfaction des clients 
+
+<li>Projets variés et multiples 
+</ul>
+ 

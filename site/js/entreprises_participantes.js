@@ -41,19 +41,34 @@ $(document).ready(function() {
      */
 
     createTemplate("seekube.json");
-    createTemplate("seekube.json");
-    createTemplate("seekube.json");
-    createTemplate("seekube.json");
-    createTemplate("seekube.json");
-    createTemplate("seekube.json");
-    createTemplate("seekube.json");
-    createTemplate("seekube.json");
-    createTemplate("seekube.json");
-    createTemplate("seekube.json");
-    createTemplate("seekube.json");
-    createTemplate("seekube.json");
-    createTemplate("seekube.json");
-    createTemplate("seekube.json");
+    createTemplate("akka.json");
+    createTemplate("alten.json");
+    createTemplate("altran.json");
+    createTemplate("bee.json");
+    createTemplate("capgemini.json");
+    createTemplate("delfingen.json");
+    createTemplate("efor.json");
+    createTemplate("eiffage.json");
+    createTemplate("electroimpact.json");
+    createTemplate("esker.json");
+    createTemplate("euro_information.json");
+    createTemplate("eurovia.json");
+    createTemplate("gerard_perrier_industrie.json");
+    createTemplate("schmidt.json");
+    createTemplate("seb.json");
+    createTemplate("ikos.json");
+    createTemplate("loreal.json");
+    createTemplate("marine_nationale.json");
+    createTemplate("nexter_systems.json");
+    createTemplate("sii_strasbourg.json");
+    createTemplate("andre_bazin.json");
+    createTemplate("scomec.json");
+    createTemplate("sonceboz.json");
+    createTemplate("sopra_steria.json");
+    createTemplate("stanley_black_decker.json");
+    createTemplate("syselcom_mutuelle.json");
+    createTemplate("vinci_energies.json");
+
     setupJquery();
 });
 
@@ -115,7 +130,7 @@ class Template {
         let parent = document.getElementById(nom_parent);
 
         this.name = jsonObject[0].name;
-        this.logo = "images/"+jsonObject[0].logo;
+        this.logo = "images/entreprises_participantes/"+jsonObject[0].logo;
         this.textFile = "presentation_entreprises/"+jsonObject[0].content;
 
         this.handler = document.createElement("div");

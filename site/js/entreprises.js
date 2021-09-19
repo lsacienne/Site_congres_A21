@@ -61,4 +61,106 @@ question_container.mouseleave(function() {
 
 
 
-})
+});
+
+
+
+/**
+ * <div class="day-page-background">
+          <div class="calendrier-box">
+            <div class="close-day-page">&times;</div>
+            <header class="calendrier-top" id="day-page-top">
+                <h3 class="date">18 Octobre 2021</h3>
+            </header>
+            <div class="split-days">
+              <div class="line">
+              <div class="event-block2">
+                <div>
+                  <p class="hour-text">12h00</p>
+                </div>
+                <div class="activity-text">
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+
+              <div class="event-block2">
+                <div>
+                  <p class="hour-text">12h00</p>
+              </div>
+              <div class="activity-text">
+                  <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <div class="event-block2">
+              <div>
+                <p class="hour-text">12h00</p>
+              </div>
+              <div class="activity-text">
+                <p>Lorem ipsum dolor sit amet.</p>
+              </div>
+           </div>
+          </div>
+
+            <div class="line">
+            <div class="event-block2">
+              <div>
+                <p class="hour-text">12h00</p>
+            </div>
+            <div class="activity-text">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+
+            <div class="event-block2">
+              <div>
+                <p class="hour-text">12h00</p>
+            </div>
+            <div class="activity-text">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+
+          <div class="event-block2">
+            <div>
+              <p class="hour-text">12h00</p>
+            </div>
+            <div class="activity-text">
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ */
+
+/*
+new CalendarDay();
+
+class CalendarDay {
+  constructor(date) {
+    this.page_background = document.createElement("div");
+    this.page_background.classList.add("day-page-background");
+    
+
+    this.box = document.createElement("div");
+    this.box.classList.add("calendrier-box");
+    this.page_background.appendChild(this.box);
+
+    let closeDayPage = document.createElement("div");
+    closeDayPage.classList.add("close-day-page");
+    closeDayPage.innerHTML = "&times;";
+    this.box.appendChild(closeDayPage);
+
+    let header = document.createElement("header");
+    header.classList.add("calendrier-top");
+    header.id = "day-page-top";
+    header.innerHTML = "<h3 class='date'>"+date+"<h3>";
+    this.box.appendChild(header);
+
+    
+
+  }
+}
+*/
