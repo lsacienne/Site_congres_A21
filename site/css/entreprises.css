@@ -168,7 +168,7 @@ footer a{
  padding-right: 0rem;
 }
 
-.intro .image img, .intro .video iframe {
+.intro .image img, .split .video iframe {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -177,7 +177,7 @@ footer a{
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
 }
 
-.intro .video {
+.split .video {
   height: 30vh;
   width: 95vw;
 }
@@ -646,7 +646,7 @@ footer a{
 /*Medias querries : Utilisées pour le contenu sur un écran de pc */
 @media (min-width: 750px) {
 
-  .intro .video {
+  .split .video {
     height: 40vh;
     width: 40vw;
   }
