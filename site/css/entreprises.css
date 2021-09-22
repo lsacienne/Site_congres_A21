@@ -345,7 +345,7 @@ footer a{
   display: flex;
   text-align: center;
   align-items: center;
-  width: 50vw;
+  width: 95vw;
 }
 
 .calendrier-top{
@@ -681,6 +681,10 @@ footer a{
 
   .calendrier{
     width: 50%;
+  }
+
+  .calendrier img {
+    width: 50vw;
   }
 
 
