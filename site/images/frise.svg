@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="87.672943mm"
+   height="45mm"
+   viewBox="0 0 87.672943 45"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   sodipodi:docname="frise.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2"
+     inkscape:cx="150"
+     inkscape:cy="48.5"
+     inkscape:window-width="1920"
+     inkscape:window-height="1015"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-grids="true"
+     height="45mm" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="DotS"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="DotS"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.2,0,0,0.2,1.48,0.2)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         id="path14462" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Send"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path14410" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Sstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Sstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.2,0,0,0.2,1.2,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path14407" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker14689"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleInS"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.2)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path14687" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleInS"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleInS"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.2)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path14534" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Mstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path14419" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="TriangleInL"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleInL"
+       inkscape:isstock="true">
+      <path
+         transform="scale(-0.8)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path14528" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="DotL"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="DotL"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,5.92,0.8)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         id="path14456" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient31899">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop31895" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop31897" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient31857"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#4742b4;stop-opacity:1;"
+         offset="0"
+         id="stop31855" />
+    </linearGradient>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path4097" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient31899"
+       id="linearGradient31901"
+       x1="33.113583"
+       y1="57.616421"
+       x2="48.412609"
+       y2="57.616421"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-28.465585,-45.100858)">
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ffd248;stroke-width:3.965;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 30.448085,48.544881 h 57.249644 c 12.760331,0 13.260061,18.869398 -0.01312,18.869398 H 58.0489 c -13.020705,0 -14.360753,20.116034 -0.163071,19.569943 h 56.270201"
+       id="path44"
+       sodipodi:nodetypes="cccccc" />
+    <g
+       id="g15362"
+       inkscape:label="template1"
+       transform="translate(0,1.4615225)">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#ffd248;stroke-width:0.479443;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4381"
+         width="16.52581"
+         height="9.0755882"
+         x="32.435814"
+         y="52.996773" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.76389px;line-height:1.35;font-family:sans-serif;text-align:center;letter-spacing:0.0740833px;text-anchor:middle;stroke:none;stroke-opacity:1"
+         x="40.422161"
+         y="56.26162"
+         id="text14357"><tspan
+           sodipodi:role="line"
+           id="tspan14355"
+           style="font-size:1.76389px;text-align:center;text-anchor:middle;stroke:none;stroke-opacity:1"
+           x="40.422161"
+           y="56.26162">Evénement 1</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:1.76389px;text-align:center;text-anchor:middle;stroke:none;stroke-opacity:1"
+           x="40.422161"
+           y="58.642872"
+           id="tspan18635"
+           dy="0 0 0 0 0">00/00/2021</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:1.76389px;text-align:center;text-anchor:middle;stroke:none;stroke-opacity:1"
+           x="40.459202"
+           y="61.024124"
+           id="tspan24763">00:00</tspan></text>
+      <path
+         style="fill:none;stroke:#4742b4;stroke-width:0.482637;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 41.190908,45.120953 v 8.760771"
+         id="path13610"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       id="g15362-3"
+       inkscape:label="template1"
+       transform="translate(20.623327,1.4637572)">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#ffd248;stroke-width:0.479443;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4381-6"
+         width="16.52581"
+         height="9.0755882"
+         x="32.435814"
+         y="52.996773" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.76389px;line-height:1.35;font-family:sans-serif;text-align:center;letter-spacing:0.0740833px;text-anchor:middle;stroke:none;stroke-opacity:1"
+         x="40.422161"
+         y="56.26162"
+         id="text14357-75"><tspan
+           sodipodi:role="line"
+           id="tspan14355-35"
+           style="font-size:1.76389px;text-align:center;text-anchor:middle;stroke:none;stroke-opacity:1"
+           x="40.422161"
+           y="56.26162">Evénement 2</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:1.76389px;text-align:center;text-anchor:middle;stroke:none;stroke-opacity:1"
+           x="40.422161"
+           y="58.642872"
+           id="tspan18635-62"
+           dy="0 0 0 0 0">00/00/2021</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:1.76389px;text-align:center;text-anchor:middle;stroke:none;stroke-opacity:1"
+           x="40.459202"
+           y="61.024124"
+           id="tspan24763-91">00:00</tspan></text>
+      <path
+         style="fill:none;stroke:#4742b4;stroke-width:0.482637;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 41.190908,45.120953 v 8.760771"
+         id="path13610-2"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       id="g15362-7"
+       inkscape:label="template1"
+       transform="translate(41.777001,1.456335)">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#ffd248;stroke-width:0.479443;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4381-0"
+         width="16.52581"
+         height="9.0755882"
+         x="32.435814"
+         y="52.996773" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.76389px;line-height:1.35;font-family:sans-serif;text-align:center;letter-spacing:0.0740833px;text-anchor:middle;stroke:none;stroke-opacity:1"
+         x="40.422161"
+         y="56.26162"
+         id="text14357-9"><tspan
+           sodipodi:role="line"
+           id="tspan14355-36"
+           style="font-size:1.76389px;text-align:center;text-anchor:middle;stroke:none;stroke-opacity:1"
+           x="40.422161"
+           y="56.26162">Evénement 3</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:1.76389px;text-align:center;text-anchor:middle;stroke:none;stroke-opacity:1"
+           x="40.422161"
+           y="58.642872"
+           id="tspan18635-0"
+           dy="0 0 0 0 0">00/00/2021</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:1.76389px;text-align:center;text-anchor:middle;stroke:none;stroke-opacity:1"
+           x="40.459202"
+           y="61.024124"
+           id="tspan24763-6">00:00</tspan></text>
+      <path
+         style="fill:none;stroke:#4742b4;stroke-width:0.482637;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 41.190908,45.120953 v 8.760771"
+         id="path13610-26"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       id="g15362-1"
+       inkscape:label="template1"
+       transform="translate(25.285259,20.345507)">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#ffd248;stroke-width:0.479443;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4381-8"
+         width="16.52581"
+         height="9.0755882"
+         x="32.435814"
+         y="52.996773" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.76389px;line-height:1.35;font-family:sans-serif;text-align:center;letter-spacing:0.0740833px;text-anchor:middle;stroke:none;stroke-opacity:1"
+         x="40.422161"
+         y="56.26162"
+         id="text14357-79"><tspan
+           sodipodi:role="line"
+           id="tspan14355-2"
+           style="font-size:1.76389px;text-align:center;text-anchor:middle;stroke:none;stroke-opacity:1"
+           x="40.422161"
+           y="56.26162">Evénement 5</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:1.76389px;text-align:center;text-anchor:middle;stroke:none;stroke-opacity:1"
+           x="40.422161"
+           y="58.642872"
+           id="tspan18635-02"
+           dy="0 0 0 0 0">00/00/2021</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:1.76389px;text-align:center;text-anchor:middle;stroke:none;stroke-opacity:1"
+           x="40.459202"
+           y="61.024124"
+           id="tspan24763-3">00:00</tspan></text>
+      <path
+         style="fill:none;stroke:#4742b4;stroke-width:0.482637;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 41.190908,45.120953 v 8.760771"
+         id="path13610-7"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       id="g15362-5"
+       inkscape:label="template1"
+       transform="translate(47.177432,20.305028)">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#ffd248;stroke-width:0.479443;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4381-9"
+         width="16.52581"
+         height="9.0755882"
+         x="32.435814"
+         y="52.996773" />
+      <text
+         xml:space="preserve"
+         style="font-size:1.76389px;line-height:1.35;font-family:sans-serif;text-align:center;letter-spacing:0.0740833px;text-anchor:middle;stroke:none;stroke-opacity:1"
+         x="40.422161"
+         y="56.26162"
+         id="text14357-2"><tspan
+           sodipodi:role="line"
+           id="tspan14355-28"
+           style="font-size:1.76389px;text-align:center;text-anchor:middle;stroke:none;stroke-opacity:1"
+           x="40.422161"
+           y="56.26162">Evénement 4</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:1.76389px;text-align:center;text-anchor:middle;stroke:none;stroke-opacity:1"
+           x="40.422161"
+           y="58.642872"
+           id="tspan18635-9"
+           dy="0 0 0 0 0">00/00/2021</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:1.76389px;text-align:center;text-anchor:middle;stroke:none;stroke-opacity:1"
+           x="40.459202"
+           y="61.024124"
+           id="tspan24763-7">00:00</tspan></text>
+      <path
+         style="fill:none;stroke:#4742b4;stroke-width:0.482637;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 41.190908,45.120953 v 8.760771"
+         id="path13610-3"
+         sodipodi:nodetypes="cc" />
+    </g>
+  </g>
+</svg>

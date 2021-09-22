@@ -341,6 +341,13 @@ footer a{
 
 }
 
+.calendrier img {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 50vw;
+}
+
 .calendrier-top{
   color: var(--first-grey);
   background: var(--blue-logo);
