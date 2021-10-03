@@ -53,6 +53,9 @@ function animateCarouselRightToLeft(width_image){
 }
 
 function animateCarouselLeftToRight(width_image){
-    $(".carousel ul").css({marginLeft: -width_image}).find("li:first").before($(".carousel ul").find("li:last"));
-    $(".carousel ul").animate({ marginLeft: 0 }, 800);
+    $(".carousel ul").animate({ marginLeft: 0 }, 800, function() {
+        $(".carousel ul").css({marginLeft: -width_image}).find("li:first").before($(".carousel ul").find("li:last"));
+    });
+    
+    
 }

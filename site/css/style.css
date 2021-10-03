@@ -108,7 +108,7 @@ main {
     /* box-shadow: 30px 0 40px rgba(0,0,0,0.1), -30px 0 40px rgba(0,0,0,0.1); */
 }
 
-.main-content-flex, .main-text-img,.caption, footer {
+.main-content-flex,.caption, footer {
     text-align: center;
 }
 
@@ -117,9 +117,17 @@ main {
 /* Contenu du header */
 
 .main-image {
-    width: 50%;
+    width: 90%;
     height: 20%;
     display: none;
+}
+
+.main-image .main-text {
+    font-size: 1em;
+    font-style: italic;
+    line-height: 1.1;
+    color: var(--blue-logo);
+    margin-top: 0;
 }
 
 .main-content {
@@ -140,6 +148,8 @@ main {
     align-items: center;
     text-align: center;
 }
+
+
 
 /* Contenu de la page */
 
@@ -229,6 +239,7 @@ main {
     text-align: left;
     align-items: left;
     margin: auto;
+    margin-top: 1rem;
     color: #FFFFFF;
     text-shadow: 0px 1px 1px #000000;
 }
@@ -237,6 +248,45 @@ main {
     margin: 1rem;
 }
 
+
+
+.texte .reseaux {
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.reseau {
+    display: inline-flex;
+}
+
+.reseau a {
+    margin-right: 1rem;
+    color: var(--blue-logo);
+}
+
+.texte .reseaux .reseaux-texte {
+    font-size: 1rem;
+}
+
+.texte .reseaux a {
+    margin-bottom: 1rem;
+}
+
+.texte .reseaux .reseau:nth-child(2) {
+    margin-left: 1rem;
+}
+
+.texte .reseaux .reseau:nth-child(3) {
+    margin-left: 2rem;
+}
+
+.texte .reseaux .reseau:nth-child(4) {
+    margin-left: 3rem;
+}
 
 
 
@@ -253,7 +303,7 @@ main {
     /* Contenu du header */
     .main-content {
         display: flex;
-        height: 100vh;
+        height: 80vh;
         background: rgb(255,255,255);
         background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 60%, rgba(68,68,180,1) 100%);
         /*margin:80px auto auto auto*/
@@ -266,6 +316,10 @@ main {
     .main-image {
         width: 60%;
         height: 20%;
+    }
+
+    .main-image .main-text {
+        font-size: 2em;
     }
     /* Contenu de la page */
     .data-container {
