@@ -450,7 +450,8 @@ footer a{
   text-transform: none;
   text-align: center;
   margin-top: 1rem;
-  font-size: 2rem;
+  font-size: 1.75rem;
+  line-height: 2rem;
 }
 
 .todo .row{
@@ -469,6 +470,7 @@ footer a{
   color: var(--text-color);
   font-size: 1.25rem;
   padding-left: .5rem;
+  vertical-align: middle;
 }
 
 
@@ -495,6 +497,7 @@ footer a{
 }
 
 .faq-container .question-container{
+  align-self: flex-start;
   flex: 1 1 20rem;
   padding: 2rem;
   border-radius: .5rem;
@@ -517,8 +520,14 @@ footer a{
   display: none;
 }
 
+.faq-container .question-container i p span{
+  text-decoration: line-through;
+}
+
 .faq-container .question-container strong p,
-.faq-container .question-container i p{
+.faq-container .question-container i p,
+.faq-container .question-container i p span,
+.faq-container .question-container i p a{
   text-transform: none;
 }
 
@@ -545,7 +554,7 @@ footer a{
   }
 
   .todo{
-    width: 70%;
+    width: 60%;
   }
 
   .todo .row{
@@ -559,6 +568,6 @@ footer a{
   .todo .row i span{
     color: var(--text-color);
     font-size: 1.5rem;
-    padding-left: .5rem;
+    padding-left: .4rem;
   }
 }
