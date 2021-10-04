@@ -236,8 +236,9 @@ main {
 
 .texte h1 {
     font-size: 1.8rem;
-    text-align: left;
+    text-align: center;
     align-items: left;
+    line-height: 1;
     margin: auto;
     margin-top: 1rem;
     color: #FFFFFF;
@@ -276,17 +277,7 @@ main {
     margin-bottom: 1rem;
 }
 
-.texte .reseaux .reseau:nth-child(2) {
-    margin-left: 1rem;
-}
 
-.texte .reseaux .reseau:nth-child(3) {
-    margin-left: 2rem;
-}
-
-.texte .reseaux .reseau:nth-child(4) {
-    margin-left: 3rem;
-}
 
 
 
@@ -355,6 +346,16 @@ main {
         height: 100%;
     }
 
-
+    .texte .reseaux .reseau:nth-child(2) {
+        margin-left: 1rem;
+    }
+    
+    .texte .reseaux .reseau:nth-child(3) {
+        margin-left: 2rem;
+    }
+    
+    .texte .reseaux .reseau:nth-child(4) {
+        margin-left: 3rem;
+    }
 
 }

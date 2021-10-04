@@ -348,6 +348,15 @@ footer a{
   width: 95vw;
 }
 
+.calendrier iframe {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 92vw;
+  height: 92vw;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.4);;
+}
+
 .calendrier-top{
   color: var(--first-grey);
   background: var(--blue-logo);
@@ -685,6 +694,11 @@ footer a{
 
   .calendrier img {
     width: 50vw;
+  }
+
+  .calendrier iframe {
+    width: 50vw;
+    height: 30vw;
   }
 
 
