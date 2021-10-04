@@ -271,6 +271,7 @@ main {
 
 .texte .reseaux .reseaux-texte {
     font-size: 1rem;
+    vertical-align: middle;
 }
 
 .texte .reseaux a {

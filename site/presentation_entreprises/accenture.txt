@@ -1,0 +1,16 @@
+<h3>A propos de l'entreprise </h3>
+
+Accenture, un des leaders mondiaux des services aux entreprises et administrations, propose une large gamme de services et solutions en stratégie et conseil, expériences interactives client, technologie et gestion déléguée d’opérations, avec une expertise digitale transversale intégrée au sein de tous ces services. Combinant une expérience unique et une expertise spécialisée dans plus de 40 secteurs d’activité, Accenture s’appuie sur le plus grand réseau international de centres de technologie avancée et d’opérations intelligentes. Avec 513 000 employés dans plus de 120 pays, Accenture favorise l’innovation pour accompagner ses clients dans l’amélioration de leur performance et la création d’une valeur durable dans leurs organisations.  
+<br>
+Accenture France accompagne ses clients de la stratégie à la mise en œuvre et crée de la valeur durable au sein d’un système plaçant l’humain et la technologie au cœur de ses solutions : 
+<br>
+<ul>
+
+<li>Strategy & Consulting : Concevoir une transformation technologique et humaine, efficace et durable. </li>
+
+<li>Interactive : Créer des expériences inédites pour les entreprises et les consommateurs. 
+
+<li>Technology : Déployer les technologies innovantes les mieux adaptées à chaque organisation et renforcer leur cyber-résilience. 
+
+<li>Operations : Mettre en œuvre des modèles opérationnels intelligents pour gagner en agilité. 
+</ul>

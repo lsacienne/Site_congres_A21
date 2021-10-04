@@ -40,7 +40,6 @@ $(document).ready(function() {
      * 
      */
 
-    createTemplate("seekube.json");
     createTemplate("akka.json");
     createTemplate("alten.json");
     createTemplate("altran.json");
@@ -68,6 +67,18 @@ $(document).ready(function() {
     createTemplate("stanley_black_decker.json");
     createTemplate("syselcom_mutuelle.json");
     createTemplate("vinci_energies.json");
+
+    createTemplate("accenture.json");
+    createTemplate("alstom.json");
+    createTemplate("alsterea.json");
+    createTemplate("cicorel.json");
+    createTemplate("deloitte.json");
+    createTemplate("expleo.json");
+    createTemplate("groupe_atlantic.json");
+    createTemplate("instavox.json");
+    createTemplate("itlink.json");
+    createTemplate("lv.json");
+    createTemplate("piman.json");
 
     setupJquery();
 });
