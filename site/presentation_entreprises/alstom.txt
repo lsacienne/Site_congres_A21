@@ -1,4 +1,4 @@
-<h3>A propos de l'entreprise </h3>
+<h3>A propos de l'entreprise </h3><br>
 
 Nous créons des innovations intelligentes pour relever les défis de la mobilité d’aujourd'hui et de demain. Nous concevons et fabriquons une gamme complète de systèmes de transport, des trains à grande vitesse aux bus électriques et trains sans conducteur, en passant par les solutions d'infrastructure, de signalisation et de mobilité digitale. Nous rejoindre, c’est intégrer une communauté internationale de plus 75000 personnes qui se consacrent à la résolution de problèmes de mobilité concrets et à la réalisation de projets internationaux ayant un impact local durable. 
 <br>

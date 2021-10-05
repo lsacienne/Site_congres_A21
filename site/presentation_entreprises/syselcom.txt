@@ -1,9 +1,3 @@
 <h3>A propos de l'entreprise </h3><br>
 
-Créée en 1995, Syselcom Mutuelle Informatique SA est une société suisse à capitaux suisses. Syselcom est spécialisée dans les domaines de la conception, l’intégration, l’exploitation et la supervision d’architectures informatiques dédiées aux entreprises. Syselcom apporte à ses clients, non seulement une expertise relative à l’ensemble des composants d’un système d’information moderne (architectures de communication locales et distantes, stockage des données, sécurisation de systèmes et de périmètres, procédures d’audit et de supervision, plans de secours), mais également une gamme complète de services adaptés aux besoins spécifiques des entreprises. <br><br>
-
-<h3>Nos petits plus </h3><br>
-
-L’opportunité de rejoindre une entreprise en pleine expansion et de travailler sur des activités variées au sein d’une équipe jeune et dynamique. L’occasion de pouvoir mettre en évidence votre polyvalence et vos qualités dans un cadre de travail intéressant et en forte croissance. 
-
- 
+Créée en 1995, Syselcom Mutuelle Informatique SA est une société suisse à capitaux suisses. Syselcom est spécialisée dans les domaines de la conception, l’intégration, l’exploitation et la supervision d’architectures informatiques dédiées aux entreprises. Syselcom apporte à ses clients, non seulement une expertise relative à l’ensemble des composants d’un système d’information moderne (architectures de communication locales et distantes, stockage des données, sécurisation de systèmes et de périmètres, procédures d’audit et de supervision, plans de secours), mais également une gamme complète de services adaptés aux besoins spécifiques des entreprises. 

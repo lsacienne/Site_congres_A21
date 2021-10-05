@@ -1,7 +1,3 @@
 <h3>A propos de l'entreprise </h3><br>
 
-Depuis 1967, Gérard Perrier Industrie (GPI), entreprise familiale, développe ses activités sur un cœur de métier précis : la conception, la construction, l’installation et la maintenance d’équipements électriques, électroniques et d’automatismes dédiés à l’Industrie. Regroupant plus de 2100 salariés, le Groupe GPI s’organise autour de huit sociétés autonomes : SOTEB, GERAL, BONTRONIC, ARDATEM, TECHNISONIC, SEIREL, SERA, et DATIVE. <br><br>
-
-<h3>Nos petits plus </h3><br>
-
-Promotion interne, formation, nous misons sur nos stagiaires et alternants pour devenir les Managers de demain ! 
+Depuis 1967, Gérard Perrier Industrie (GPI), entreprise familiale, développe ses activités sur un cœur de métier précis : la conception, la construction, l’installation et la maintenance d’équipements électriques, électroniques et d’automatismes dédiés à l’Industrie. Regroupant plus de 2100 salariés, le Groupe GPI s’organise autour de huit sociétés autonomes : SOTEB, GERAL, BONTRONIC, ARDATEM, TECHNISONIC, SEIREL, SERA, et DATIVE.

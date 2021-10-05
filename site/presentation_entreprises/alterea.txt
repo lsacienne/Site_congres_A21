@@ -1,4 +1,4 @@
-<h3>A propos de l'entreprise </h3>
+<h3>A propos de l'entreprise </h3><br>
 
 ALTEREA Groupe est un acteur indépendant et engagé dans le conseil, l’ingénierie et les services liés à la transition énergétique, écologique et numérique. Nous accompagnons nos clients dans les domaines de la réhabilitation énergétique, des bâtiments durables, du développement des énergies renouvelables, des réseaux de chaleur décarbonés, des villes durables et connectées. 
 <br>

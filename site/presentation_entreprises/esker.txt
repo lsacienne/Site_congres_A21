@@ -4,19 +4,4 @@ Esker est un des principaux éditeurs mondiaux de solutions de dématérialisati
 
 Sa solution, développée sur la base de technologies innovantes d’IA et de RPA, aide les entreprises à gagner en productivité et à mieux collaborer, que ce soit en interne ou avec leurs clients et fournisseurs. Une R&D de 100 personnes travaille en petites équipes Scrum à son enrichissement, et assure la sortie de nouvelles fonctionnalités toutes les 2 semaines. <br>
 
-Classée 14e au Palmarès Great Place to Work 2019, Esker s'investit dans le bien-être de ses 600 salariés, dont 350 sont basés à son siège lyonnais. <br><br>
-
-<h3>Nos petits plus </h3><br>
-<ul>
-<li>Une ambiance conviviale et beaucoup de solidarité </li>
-
-<li>Des dizaines d'événements organisés par an : afterworks, déjeuner food trucks, soirées festives.. </li>
-
-<li>Des locaux tout neufs avec du matériel moderne </li>
-
-<li>De quoi combler les sportifs : douches et vestiaires, parc de la Tête d'Or en face des locaux, comité EskerFit, salle de sport à proximité </li>
-
-<li>Une journée par an offerte aux salariés pour réaliser des actions sociétales sur leur temps de travail </li>
-
-<li>Des moyens d'apprendre et de partager ses connaissances (Tech Days, Blog R&D,...) </li>
-</ul> 
+Classée 14e au Palmarès Great Place to Work 2019, Esker s'investit dans le bien-être de ses 600 salariés, dont 350 sont basés à son siège lyonnais. 

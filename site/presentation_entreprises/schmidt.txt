@@ -1,34 +1,5 @@
 <h3>A propos de l'entreprise </h3><br>
 
-Schmidt Groupe, leader dans le domaine de <strong>l’aménagement de l’habitat</strong>, poursuit sa croissance et développe sa présence en France et à l’international avec ses deux réseaux de distribution : Schmidt et Cuisinella. Avec <strong>6 usines en Europe</strong>, 800 magasins et plus de 7 000 personnes participant au succès de nos marques, Schmidt Groupe est avant tout une énergie humaine qui ne cesse de grandir. <br>
+Schmidt Groupe, leader dans le domaine de l’aménagement de l’habitat, poursuit sa croissance et développe sa présence en France et à l’international avec ses deux réseaux de distribution : Schmidt et Cuisinella. Avec 6 usines en Europe, 800 magasins et plus de 7 000 personnes participant au succès de nos marques, Schmidt Groupe est avant tout une énergie humaine qui ne cesse de grandir. <br>
 
-INSPIRONS-NOUS ! « <strong>Inspiring living spaces</strong> » est notre raison d’être : Créer des espaces de vie inspirants pour nos clients, grâce à des équipes inspirées. <br><br>
-
-<h3>Nos petits plus</h3> <br>
-
-Qu'est ce qui vous caractérise ? <br>
-<ul>
-<li>La passion  
-
-<li>L’agilité et la curiosité 
-
-<li>La confiance et la coopération 
-
-<li>La capacité de remise en question 
-
-<li>Le respect des autres et de son environnement 
-</ul>
-Qu’est-ce qui nous caractérise ? <br>
-<ul>
-<li>Entreprise familiale et internationale 
-
-<li>Plaisir, bienveillance, responsabilité, coopération, confiance, agilité 
-
-<li>Industrie 4.0 et excellence commerciale 
-
-<li>Attitude positive face à la planète et à la société 
-
-<li>Parcours d’intégration et accompagnement dans la réalisation de votre potentiel 
-
-<li>Top Employeur 2021 
-</ul>
+INSPIRONS-NOUS ! « Inspiring living spaces » est notre raison d’être : Créer des espaces de vie inspirants pour nos clients, grâce à des équipes inspirées.
