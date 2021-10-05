@@ -92,13 +92,15 @@ function setupJquery() {
         $(this).find(".resume-wrapper").stop().fadeTo("fast",1);
         focusedTemplate = $(this);
         console.log(focusedTemplate);
-        
+        $("html").css({ overflow: "hidden"});
     })
 
     $(".resume-wrapper").on("click",function(event){
         event.stopPropagation();
         focusedTemplate.find(".resume-wrapper").stop().fadeTo("slow",-0.5,function(){
             focusedTemplate.find(".resume-wrapper").css({ display: "none"});
+            $("html").css({ overflow: "unset"});
+
         })
         
     });
