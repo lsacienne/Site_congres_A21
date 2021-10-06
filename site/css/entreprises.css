@@ -638,6 +638,7 @@ footer a{
 }
 
 .faq-container .question-container{
+  align-self: flex-start;
   flex: 1 1 20rem;
   padding: 2rem;
   border-radius: .5rem;

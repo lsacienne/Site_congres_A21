@@ -240,6 +240,15 @@ footer a{
   margin: auto;
 }
 
+.calendrier iframe {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width:45rem;
+  height: 30rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.4);;
+}
+
 .calendrier-top{
   color: #333;
   background: var(--yellow-logo);
