@@ -1,4 +1,4 @@
-<h3>A propos de l'entreprise </h3>
+<h3>A propos de l'entreprise </h3><br>
 
 Accenture, un des leaders mondiaux des services aux entreprises et administrations, propose une large gamme de services et solutions en stratégie et conseil, expériences interactives client, technologie et gestion déléguée d’opérations, avec une expertise digitale transversale intégrée au sein de tous ces services. Combinant une expérience unique et une expertise spécialisée dans plus de 40 secteurs d’activité, Accenture s’appuie sur le plus grand réseau international de centres de technologie avancée et d’opérations intelligentes. Avec 513 000 employés dans plus de 120 pays, Accenture favorise l’innovation pour accompagner ses clients dans l’amélioration de leur performance et la création d’une valeur durable dans leurs organisations.  
 <br>

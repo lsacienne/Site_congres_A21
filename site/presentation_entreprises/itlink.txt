@@ -1,4 +1,4 @@
-<h3>A propos de l'entreprise </h3>
+<h3>A propos de l'entreprise </h3><br>
 
 IT Link, première Entreprise de Services du Numérique spécialiste des systèmes connectés. 
 <br>

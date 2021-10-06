@@ -1,4 +1,4 @@
-<h3>A propos de l'entreprise </h3>
+<h3>A propos de l'entreprise </h3><br>
 
 PIMAN CONSULTANTS, nous sommes une société qui est experte depuis 11 ans dans les domaines de projet CAPEX et des projets d’investissements. 100 % de nos clients nous confient ce type de missions. Nous intervenons dans les secteurs de l’industrie (énergie, chimie, Oil and Gas, BTP, nucléaire, environnement, process et transformation, transport, la défense, télécommunications et infrastructures, agroalimentaire, pharmaceutique, dispositifs médicaux). Nous avons plus de 200 clients dont 120 actif, nous travaillons avec des clients donneurs d’ordre, équipementiers, installateurs, intégrateurs. 
 <br>

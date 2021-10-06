@@ -1,4 +1,4 @@
-<h3>A propos de l'entreprise </h3>
+<h3>A propos de l'entreprise </h3><br>
 
 D’origine française, GROUPE ATLANTIC est un des leaders européens du confort thermique, présent dans plus de 70 pays. Fondé par deux ingénieurs, notre histoire et notre culture sont celles d’industriels mobilisés par la transformation des idées, des compétences et des matières premières en produits finis. 
 <br>
