@@ -225,7 +225,6 @@ main {
 }
 
 .underline {
-    /* border-top: solid 0.5rem; */
     height: 0.5rem;
     background-color: var(--yellow-logo);
     border-color: var(--yellow-logo);
@@ -248,7 +247,6 @@ main {
 .texte p {
     margin: 1rem;
 }
-
 
 
 .texte .reseaux {
@@ -280,10 +278,6 @@ main {
 
 
 
-
-
-
-
 /* Medias querries : Utilisées pour le contenu sur un écran de pc */
 
 @media (min-width: 750px) {
@@ -298,7 +292,6 @@ main {
         height: 80vh;
         background: rgb(255,255,255);
         background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 60%, rgba(68,68,180,1) 100%);
-        /*margin:80px auto auto auto*/
     }
     .main-content-flex {
         height: 0;
@@ -350,11 +343,11 @@ main {
     .texte .reseaux .reseau:nth-child(2) {
         margin-left: 1rem;
     }
-    
+
     .texte .reseaux .reseau:nth-child(3) {
         margin-left: 2rem;
     }
-    
+
     .texte .reseaux .reseau:nth-child(4) {
         margin-left: 3rem;
     }
