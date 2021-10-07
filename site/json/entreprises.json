@@ -1,0 +1,190 @@
+[{
+    "name":"accenture",
+    "logo":"accenture.png",
+    "content":"accenture.txt"
+},
+{
+    "name":"AKKA",
+    "logo":"akka_technologies.png",
+    "content":"akka.txt"
+},
+{
+    "name":"alstom",
+    "logo":"alstom.png",
+    "content":"alstom.txt"
+},
+{
+    "name":"ALTEN",
+    "logo":"Alten.jpeg",
+    "content":"alten.txt"
+},
+{
+    "name":"alterea",
+    "logo":"alterea.jpg",
+    "content":"alterea.txt"
+},
+{
+    "name":"altran",
+    "logo":"altran.png",
+    "content":"altran.txt"
+},
+{
+    "name":"Société André Bazin",
+    "logo":"andre_bazin.png",
+    "content":"andre_bazin.txt"
+},
+{
+    "name":"Bee engineering",
+    "logo":"bee_engineering.jpg",
+    "content":"bee.txt"
+},
+{
+    "name":"Capgemini",
+    "logo":"capgemini.png",
+    "content":"capgemini.txt"
+},
+{
+    "name":"cicorel",
+    "logo":"cicorel.png",
+    "content":"cicorel.txt"
+},
+{
+    "name":"Delfingen",
+    "logo":"delfingen.png",
+    "content":"delfingen.txt"
+},
+{
+    "name":"Deloitte",
+    "logo":"deloitte.png",
+    "content":"deloitte.txt"
+},
+{
+    "name":"efor group",
+    "logo":"efor_group.png",
+    "content":"efor.txt"
+},
+{
+    "name":"Eiffage energies systemes",
+    "logo":"eiffage_energies_systemes.png",
+    "content":"eiffage.txt"
+},
+{
+    "name":"Electroimpact",
+    "logo":"electroimpact.png",
+    "content":"electroimpact.txt"
+},
+{
+    "name":"Esker",
+    "logo":"esker.png",
+    "content":"esker.txt"
+},
+{
+    "name":"EURO INFORMATION",
+    "logo":"euro_information.jpeg",
+    "content":"euro_information.txt"
+},
+{
+    "name":"Eurovia",
+    "logo":"eurovia.png",
+    "content":"eurovia.txt"
+},
+{
+    "name":"expleo",
+    "logo":"expleo.jpg",
+    "content":"expleo.txt"
+},
+{
+    "name":"Gerard Perrier Industrie",
+    "logo":"gerard_perrier_industrie.png",
+    "content":"gerard_perrier_industrie.txt"
+},
+{
+    "name":"Groupe Atlantic",
+    "logo":"groupe_atlantic.png",
+    "content":"groupe_atlantic.txt"
+},
+{
+    "name":"ikos",
+    "logo":"ikos.png",
+    "content":"ikos.txt"
+},
+{
+    "name":"Instavox",
+    "logo":"instavox.jfif",
+    "content":"instavox.txt"
+},
+{
+    "name":"It Link",
+    "logo":"itlink.png",
+    "content":"itlink.txt"
+},
+{
+    "name":"L'Oréal",
+    "logo":"loreal.png",
+    "content":"loreal.txt"
+},
+{
+    "name":"Louis Vuitton",
+    "logo":"lv.jpg",
+    "content":"lv.txt"
+},
+{
+    "name":"La Marine Nationale",
+    "logo":"marine_nationale.jpg",
+    "content":"marine_nationale.txt"
+},
+{
+    "name":"Nexter Systems",
+    "logo":"Nexter_systems.jpg",
+    "content":"nexter_systems.txt"
+},
+{
+    "name":"Piman",
+    "logo":"piman.png",
+    "content":"piman.txt"
+},
+{
+    "name":"Schmidt Groupe",
+    "logo":"schmidt_groupe.png",
+    "content":"schmidt.txt"
+},
+{
+    "name":"SEB Groupe",
+    "logo":"groupe_seb.png",
+    "content":"seb.txt"
+},
+{
+    "name":"SII Strasbourg",
+    "logo":"SII_Strasbourg.jpg",
+    "content":"sii_strasbourg.txt"
+},
+{
+    "name":"Socomec",
+    "logo":"socomec.jpg",
+    "content":"socomec.txt"
+},
+{
+    "name":"Sonceboz",
+    "logo":"sonceboz.jpg",
+    "content":"sonceboz.txt"
+},
+{
+    "name":"sopra steria",
+    "logo":"sopra_steria.png",
+    "content":"sopra_steria.txt"
+},
+{
+    "name":"Stanley Black & Decker",
+    "logo":"Stanley_Black_Decker.jpg",
+    "content":"stanley_black_decker.txt"
+},
+{
+    "name":"Syselcom Mutuelle Informatique",
+    "logo":"syselcom_mutuelle_informatique.png",
+    "content":"syselcom.txt"
+},
+{
+    "name":"Vinci Energies",
+    "logo":"vinci_energies.png",
+    "content":"vinci_energies.txt"
+}]

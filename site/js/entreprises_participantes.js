@@ -3,82 +3,10 @@ var template_count = 0;
 $(document).ready(function() {
 
     let httpRequest = new XMLHttpRequest(); // asynchronous request
-    /*
-    CELA NE FONCTIONNE PAS
 
-    $.ajax({
-        //This will retrieve the contents of the folder if the folder is configured as 'browsable'
-        url: "/json",
-        success: function (data) {
-            // List all mp4 file names in the page
-            console.log(data);
-            let temp = document.createElement("div");
-            temp.innerHTML = data;
-            let files = [];
-            for(elem of temp.getElementsByClassName("name")) {
-                if(elem.innerHTML != ".."){
-                    files.push(elem.innerHTML);
-                }
-            }
-            let file_count = 0;
-            console.log(files);
-            
-            for(file of files) {
-                if(file_count % 5 == 0) {
-                    new Container(Math.floor(file_count/5)+1,document.querySelector("main"));
-                }
-                createTemplate(file,"container"+(Math.floor(file_count/5)+1).toString());
-                file_count++;
-            }
-        }
-    });
-    */
 
-    /**
-     * 
-     * Inserez les entreprises ici
-     * 
-     */
-
-    createTemplate("akka.json");
-    createTemplate("alten.json");
-    createTemplate("altran.json");
-    createTemplate("bee.json");
-    createTemplate("capgemini.json");
-    createTemplate("delfingen.json");
-    createTemplate("efor.json");
-    createTemplate("eiffage.json");
-    createTemplate("electroimpact.json");
-    createTemplate("esker.json");
-    createTemplate("euro_information.json");
-    createTemplate("eurovia.json");
-    createTemplate("gerard_perrier_industrie.json");
-    createTemplate("schmidt.json");
-    createTemplate("seb.json");
-    createTemplate("ikos.json");
-    createTemplate("loreal.json");
-    createTemplate("marine_nationale.json");
-    createTemplate("nexter_systems.json");
-    createTemplate("sii_strasbourg.json");
-    createTemplate("andre_bazin.json");
-    createTemplate("scomec.json");
-    createTemplate("sonceboz.json");
-    createTemplate("sopra_steria.json");
-    createTemplate("stanley_black_decker.json");
-    createTemplate("syselcom_mutuelle.json");
-    createTemplate("vinci_energies.json");
-
-    createTemplate("accenture.json");
-    createTemplate("alstom.json");
-    createTemplate("alsterea.json");
-    createTemplate("cicorel.json");
-    createTemplate("deloitte.json");
-    createTemplate("expleo.json");
-    createTemplate("groupe_atlantic.json");
-    createTemplate("instavox.json");
-    createTemplate("itlink.json");
-    createTemplate("lv.json");
-    createTemplate("piman.json");
+    /* Création des templates pour les entreprises */
+    createTemplate();
 
     setupJquery();
 });
@@ -115,12 +43,12 @@ class Container {
     }
 }
 
-function createTemplate(nom_entreprise,nom_parent){
+function createTemplate(nom_parent){
 
     let parent = document.getElementById(nom_parent);
     let jsonObject;
 
-    let fileName = "json/"+nom_entreprise;
+    let fileName = "json/entreprises.json";
     let httpRequest = new XMLHttpRequest(); // asynchronous request
     httpRequest.open("GET", fileName, true);
     httpRequest.send();
@@ -128,13 +56,16 @@ function createTemplate(nom_entreprise,nom_parent){
         if (this.readyState === this.DONE) {
             // when the request has completed
             jsonObject = JSON.parse(this.response);
-            new Template(jsonObject,parent);
+            for (entreprise of jsonObject) {
+                new Template(entreprise,parent);
+            }
+            
         }
     });
 }
 
 class Template {
-    constructor(jsonObject) {
+    constructor(entreprise) {
         console.log(template_count);
         if(template_count % 5 == 0) {
             new Container(Math.floor(template_count/5)+1,document.querySelector("main"));
@@ -142,9 +73,9 @@ class Template {
         let nom_parent = "container"+(Math.floor(template_count/5)+1).toString();
         let parent = document.getElementById(nom_parent);
 
-        this.name = jsonObject[0].name;
-        this.logo = "images/entreprises_participantes/"+jsonObject[0].logo;
-        this.textFile = "presentation_entreprises/"+jsonObject[0].content;
+        this.name = entreprise.name;
+        this.logo = "images/entreprises_participantes/"+entreprise.logo;
+        this.textFile = "presentation_entreprises/"+entreprise.content;
 
         this.handler = document.createElement("div");
         this.handler.classList.add("template");
